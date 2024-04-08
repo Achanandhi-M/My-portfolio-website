@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "CI/CD Pipeline for Web Application with Elastic Beanstalk"
 description: "Automating the Web Application Deployment"
 dateString:   October 2023
 draft: false
@@ -9,8 +9,6 @@ weight: 202
 cover:
     image: "/blogs/aws-project.png"
 ---
-
-
 
 This repository contains the source code and configuration for a simple web application and a Continuous Integration / Continuous Deployment (CI/CD) pipeline using AWS services, including AWS CodePipeline, AWS CodeBuild, and AWS Elastic Beanstalk.
 
