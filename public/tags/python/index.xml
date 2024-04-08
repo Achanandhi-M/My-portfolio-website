@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Python on Achanandhi M</title>
+    <link>http://example.org/tags/python/</link>
+    <description>Recent content in Python on Achanandhi M</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="http://example.org/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Art of Coding</title>
+      <link>http://example.org/blog/the-art-of-coding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/blog/the-art-of-coding/</guid>
+      <description>Cloud Computing☁️ is one of the leading cutting edge technology in the IT Industry🔥</description>
+    </item>
+    <item>
+      <title>AWS Two tier Application</title>
+      <link>http://example.org/projects/aws-two-tier-application/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/projects/aws-two-tier-application/</guid>
+      <description>Creating Two tier Application using Amazon EC2 and Amazon RDS</description>
+    </item>
+    <item>
+      <title>Python-todo-application</title>
+      <link>http://example.org/projects/-python-todo-application/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/projects/-python-todo-application/</guid>
+      <description>Creating todo with python flask</description>
+    </item>
+    <item>
+      <title>AWS  boto3 project</title>
+      <link>http://example.org/projects/-aws-boto3-project-/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/projects/-aws-boto3-project-/</guid>
+      <description>Talking with AWS Through python code</description>
+    </item>
+    <item>
+      <title>Web Application Intern</title>
+      <link>http://example.org/experience/itransz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/experience/itransz/</guid>
+      <description>Itransz | Tamil nadu, Chennai</description>
+    </item>
+  </channel>
+</rss>

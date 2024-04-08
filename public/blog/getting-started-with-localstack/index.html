@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Getting Started With LocalStack | Achanandhi M</title>
+<meta name="keywords" content="tech, AWS, cloudnative, LocalStack, Devops">
+<meta name="description" content="LocalStack is a tool that runs on your local machine that emulates AWS API.">
+<meta name="author" content="Achanandhi M">
+<link rel="canonical" href="http://example.org/blog/getting-started-with-localstack/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://example.org/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://example.org/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://example.org/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://example.org/apple-touch-icon.png">
+<link rel="mask-icon" href="http://example.org/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Getting Started With LocalStack" />
+<meta property="og:description" content="LocalStack is a tool that runs on your local machine that emulates AWS API." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/blog/getting-started-with-localstack/" />
+<meta property="og:image" content="http://example.org/blogs/localstack-05.jpeg" /><meta property="article:section" content="blog" />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://example.org/blogs/localstack-05.jpeg" />
+<meta name="twitter:title" content="Getting Started With LocalStack"/>
+<meta name="twitter:description" content="LocalStack is a tool that runs on your local machine that emulates AWS API."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blogs",
+      "item": "http://example.org/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Getting Started With LocalStack",
+      "item": "http://example.org/blog/getting-started-with-localstack/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Getting Started With LocalStack",
+  "name": "Getting Started With LocalStack",
+  "description": "LocalStack is a tool that runs on your local machine that emulates AWS API.",
+  "keywords": [
+    "tech", "AWS", "cloudnative", "LocalStack", "Devops"
+  ],
+  "articleBody": "Hi friends🙋‍♂️ welcome back to Blogs-with-Achu, we have already seen the Introduction to LocalStack in our previous blog. LocalStack is a tool that runs on your local machine that emulates AWS API. Now in this today’s blog, we are going to explore and learn about LocalStack. The below image shows the working of LocalStack.\nImage credit: KodeKloud\nToday’s Agenda:\nHow to install LocalStack on your local machine🤔?\nAWS Services on LocalStack\nHow to integrate LocalStack?\nSummary\n1. How to install LocalStack on your local machine🤔?\nThe first thing I want to mention here is that there is no management console, likewise, we see in AWS Management Console, In LocalStack everything we will be working with the command line.\nMy best choice for learning or for the installation of any service, I will prefer documentation. Documentation is the best part of getting started.\nThe below image shows the LocalStack Installation Docs\nUse documentation for installation purposes. There are multiple ways you can install LocalStack, it depends on your use case. you can install a LocalStack based on your platforms, apart from there are different ways you can install LocalStack, you can install by using LocalStack CLI, docker,docker-compose, and also using helm. Choose the one that best suit for your use case. Remember LocalStack runs on a docker container. I installed LocalStack using docker.\n2. AWS Services on LocalStack\nLocalStack provides emulation services for different AWS APIs. Almost every service is available in LocalStack, you can use Services like S3, Lambda, IAM, ECR, EC2, EKS, etc. But the issue is here is you can’t use EKS for Community Edition, and for that, you need to pro user. Don’t there are other Services you can use for testing purposes? Here is the list of services LocalStack offers.\n3. How to integrate LocalStack?\nNow it’s time for making our hands dirty, get ready with your command line. verify LocalStack is installed on your machine\nlocalstack --version localstack start LocalStack start will start the LocalStack docker container. If you got similar output like this, you are on the correct path, if not you need to evaluate and try to fix the issue. If are unable to fix it please post in the comment section. It is better to use to sudo in front of the LocalStack command.\nIntegrations\nNext, open the new tab in the terminal, don’t use the same tab where you ran the initial start command. Next, steps are the most important step in working with LocalStack, you need to integrate LocalStack to use cloud resources. Switch to the Integrations page:\nThere are multiple ways you can integrate based on your needs, we are now focusing mainly on the AWS Command line interface, it is a very important integration, it will only send the incoming endpoint to LocalStack instead of sending it to AWS. Don’t forget to integrate, otherwise, you will not get the desired output.\nClick the AWS Command line interface in the left-side menu\nIn the overview section, there are two CLI alternatives, they both will give the same result.\n(i) AWS CLI Setup\nIf you want to use AWS CLI you can follow this one, and also forget to read the Note. Use the “test” as a value for aws_access_key and for aws_secret_key. Don’t forget to change or include the endpoint URL, the endpoint URL is used to divert the request to the LocalStack endpoint instead of sending it to AWS.\n(ii) LocalStack AWS CLI\nLocalStack AWS CLI is created by Localstack, for interacting with locally created services through API. I prefer to use to LocalStack AWS CLI it best way to get started. You can what best suits you, both are the same\n4. Summary\nIn this blog, we installed LocalStack locally on our machine and we configured the endpoint URL to divert the request to LocalStack ie (integrations). Don’t forget to integrate it is a very important process. We have already seen enough theory, In our upcoming LocalStack blog we see, how actually we work with AWS services locally using LocalStack. In the next blog, we see how to work with S3 locally. See you in Next Blog. If you find it useful please share it with your friends and let others also make use of it. Happy learning and happy reading! 📖\nRegards\nAchanandhi M👦\n",
+  "wordCount" : "718",
+  "inLanguage": "en",
+  "image":"http://example.org/blogs/localstack-05.jpeg","datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Achanandhi M"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://example.org/blog/getting-started-with-localstack/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Achanandhi M",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://example.org/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://example.org/" accesskey="h" title="Achanandhi M (Alt + H)">Achanandhi M</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://example.org/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/blog" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/projects" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/experience" title="Experience">
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://example.org/">Home</a>&nbsp;»&nbsp;<a href="http://example.org/blog/">Blogs</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Getting Started With LocalStack
+    </h1>
+    <div class="post-description">
+      LocalStack is a tool that runs on your local machine that emulates AWS API.
+    </div>
+    <div class="post-meta">4 min&nbsp;·&nbsp;Achanandhi M
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="eager" src="http://example.org/blogs/localstack-05.jpeg" alt="">
+        
+</figure>
+
+  <div class="post-content"><p>Hi friends🙋‍♂️ welcome back to Blogs-with-Achu, we have already seen the Introduction to LocalStack in our previous blog. <strong><em>LocalStack is a tool that runs on your local machine that emulates AWS API.</em></strong> Now in this today&rsquo;s blog, we are going to explore and learn about LocalStack. The below image shows the working of LocalStack.</p>
+<p><img loading="lazy" src="https://achanandhi.wordpress.com/wp-content/uploads/2023/08/whatsapp-image-2023-08-20-at-9.48.19-pm.jpeg?w=1024" alt=""  />
+</p>
+<p>Image credit: KodeKloud</p>
+<p><strong>Today&rsquo;s Agenda</strong>:</p>
+<ol>
+<li>
+<p><strong>How to install LocalStack on your local machine🤔?</strong></p>
+</li>
+<li>
+<p><strong>AWS Services on LocalStack</strong></p>
+</li>
+<li>
+<p><strong>How to integrate LocalStack?</strong></p>
+</li>
+<li>
+<p><strong>Summary</strong></p>
+</li>
+</ol>
+<p>1. <strong>How to install LocalStack on your local machine🤔?</strong></p>
+<p>The first thing I want to mention here is that there is no management console, likewise, we see in AWS Management Console, In LocalStack everything we will be working with the command line.</p>
+<p>My best choice for learning or for the installation of any service, I will prefer documentation. <a href="https://docs.localstack.cloud/getting-started/installation/">Documentation</a> is the best part of getting started.</p>
+<p>The below image shows the LocalStack Installation Docs</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/localstack-07.png" alt=""  />
+</p>
+<p><strong><em>Use documentation for installation purposes.</em></strong> There are multiple ways you can install LocalStack, it depends on your use case. you can install a LocalStack based on your platforms, apart from there are different ways you can install LocalStack, you can install by using LocalStack CLI, docker,docker-compose, and also using helm. Choose the one that best suit for your use case. <strong><em>Remember LocalStack runs on a docker container.</em></strong> I installed LocalStack using docker.</p>
+<p>2. <strong>AWS Services on LocalStack</strong></p>
+<p>LocalStack provides emulation services for different AWS APIs. Almost every service is available in LocalStack, you can use Services like S3, Lambda, IAM, ECR, EC2, EKS, etc. But the issue is here is you can&rsquo;t use EKS for Community Edition, and for that, you need to pro user. Don&rsquo;t there are other Services you can use for testing purposes? Here is the list of services LocalStack offers.</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/localstack-08.png" alt=""  />
+</p>
+<p><strong>3. How to integrate LocalStack?</strong></p>
+<p>Now it&rsquo;s time for making our hands dirty, get ready with your command line. verify LocalStack is installed on your machine</p>
+<pre tabindex="0"><code>localstack --version 
+</code></pre><pre tabindex="0"><code>localstack start 
+</code></pre><p><img loading="lazy" src="/my-demo-portfolio/static/blogs/localstack-09.png" alt=""  />
+</p>
+<p>LocalStack start will start the LocalStack docker container. If you got similar output like this, you are on the correct path, if not you need to evaluate and try to fix the issue. If are unable to fix it please post in the comment section. It is better to use to sudo in front of the LocalStack command.</p>
+<p><strong>Integrations</strong></p>
+<p>Next, open the new tab in the terminal, don&rsquo;t use the same tab where you ran the initial start command. Next, steps are the most important step in working with LocalStack, you need to integrate LocalStack to use cloud resources. Switch to the <a href="https://docs.localstack.cloud/user-guide/integrations/">Integrations</a> page:</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/localstack-10.png" alt=""  />
+</p>
+<p>There are multiple ways you can integrate based on your needs, we are now focusing mainly on the AWS Command line interface, it is a very important integration, it will only send the incoming endpoint to LocalStack instead of sending it to AWS. Don&rsquo;t forget to integrate, otherwise, you will not get the desired output.</p>
+<p>Click <a href="https://docs.localstack.cloud/user-guide/integrations/aws-cli/">the AWS Command line</a> interface in the left-side menu</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/localstack-11.png" alt=""  />
+</p>
+<p>In the overview section, there are two CLI alternatives, they both will give the same result.</p>
+<p>(i) <strong>AWS CLI Setup</strong></p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/localstack-12.png" alt=""  />
+</p>
+<p>If you want to use AWS CLI you can follow this one, and also forget to read the Note. Use the &ldquo;test&rdquo; as a value for aws_access_key and for aws_secret_key. Don&rsquo;t forget to change or include the endpoint URL, the endpoint URL is used to divert the request to the LocalStack endpoint instead of sending it to AWS.</p>
+<p><strong>(ii) LocalStack AWS CLI</strong></p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/localstack-13.png" alt=""  />
+</p>
+<p>LocalStack AWS CLI is created by Localstack, for interacting with locally created services through API. I prefer to use to LocalStack AWS CLI it best way to get started. You can what best suits you, both are the same</p>
+<p><strong>4</strong>. <strong>Summary</strong></p>
+<p>In this blog, we installed LocalStack locally on our machine and we configured the endpoint URL to divert the request to LocalStack ie (integrations). Don&rsquo;t forget to integrate it is a very important process. We have already seen enough theory, In our upcoming LocalStack blog we see, how actually we work with AWS services locally using LocalStack. In the next blog, we see how to work with S3 locally. See you in Next Blog. If you find it useful please share it with your friends and let others also make use of it. Happy learning and happy reading! 📖</p>
+<p>Regards</p>
+<p>Achanandhi M👦</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://example.org/tags/tech/">tech</a></li>
+      <li><a href="http://example.org/tags/aws/">aws</a></li>
+      <li><a href="http://example.org/tags/cloudnative/">cloudnative</a></li>
+      <li><a href="http://example.org/tags/localstack/">LocalStack</a></li>
+      <li><a href="http://example.org/tags/devops/">DevOps</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://example.org/blog/chatgpt-in-your-local-machine/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>ChatGPT in your Local Machine</span>
+  </a>
+  <a class="next" href="http://example.org/blog/machine-learning-on-aws/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Machine Learning On AWS</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span> Made ❤️ with <a href="http://example.org/">Achanandhi M</a></span>
+    <span>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

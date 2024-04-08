@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Achanandhi M</title>
+    <link>http://example.org/tags/</link>
+    <description>Recent content in Tags on Achanandhi M</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>http://example.org/tags/ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amazon</title>
+      <link>http://example.org/tags/amazon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/amazon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amazon Sagemaker</title>
+      <link>http://example.org/tags/amazon-sagemaker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/amazon-sagemaker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AmazonQ</title>
+      <link>http://example.org/tags/amazonq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/amazonq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>api</title>
+      <link>http://example.org/tags/api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automation</title>
+      <link>http://example.org/tags/automation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>aws</title>
+      <link>http://example.org/tags/aws/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/aws/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS-reinvent</title>
+      <link>http://example.org/tags/aws-reinvent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/aws-reinvent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>boto3</title>
+      <link>http://example.org/tags/boto3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/boto3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>channel-recommendations</title>
+      <link>http://example.org/tags/channel-recommendations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/channel-recommendations/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ChatGpt</title>
+      <link>http://example.org/tags/chatgpt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CI/CD</title>
+      <link>http://example.org/tags/ci/cd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/ci/cd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>cloud</title>
+      <link>http://example.org/tags/cloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>cloudcomputing</title>
+      <link>http://example.org/tags/cloudcomputing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/cloudcomputing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>cloudnative</title>
+      <link>http://example.org/tags/cloudnative/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/cloudnative/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>coding</title>
+      <link>http://example.org/tags/coding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/coding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contanier</title>
+      <link>http://example.org/tags/contanier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/contanier/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>http://example.org/tags/devops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital Ocean</title>
+      <link>http://example.org/tags/digital-ocean/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/digital-ocean/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>http://example.org/tags/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DockerHub</title>
+      <link>http://example.org/tags/dockerhub/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/dockerhub/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ec2</title>
+      <link>http://example.org/tags/ec2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/ec2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>education</title>
+      <link>http://example.org/tags/education/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/education/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>freecodecamp</title>
+      <link>http://example.org/tags/freecodecamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/freecodecamp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>freetier</title>
+      <link>http://example.org/tags/freetier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/freetier/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GenerativeAI</title>
+      <link>http://example.org/tags/generativeai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/generativeai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>http://example.org/tags/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>http://example.org/tags/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gitlab</title>
+      <link>http://example.org/tags/gitlab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/gitlab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IT</title>
+      <link>http://example.org/tags/it/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/it/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>http://example.org/tags/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jenkins</title>
+      <link>http://example.org/tags/jenkins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/jenkins/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>http://example.org/tags/kubernetes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>http://example.org/tags/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>http://example.org/tags/llm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LocalStack</title>
+      <link>http://example.org/tags/localstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/localstack/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MachineLearning</title>
+      <link>http://example.org/tags/machinelearning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/machinelearning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Minikube</title>
+      <link>http://example.org/tags/minikube/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/minikube/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nginx</title>
+      <link>http://example.org/tags/nginx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/nginx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenAI</title>
+      <link>http://example.org/tags/openai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/openai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>personal</title>
+      <link>http://example.org/tags/personal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/personal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://example.org/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RDS</title>
+      <link>http://example.org/tags/rds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/rds/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>tech</title>
+      <link>http://example.org/tags/tech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/tech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VM</title>
+      <link>http://example.org/tags/vm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/vm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VSCodium</title>
+      <link>http://example.org/tags/vscodium/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/vscodium/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WebApplication</title>
+      <link>http://example.org/tags/webapplication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/webapplication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>webserver</title>
+      <link>http://example.org/tags/webserver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/webserver/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Youtube</title>
+      <link>http://example.org/tags/youtube/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/youtube/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

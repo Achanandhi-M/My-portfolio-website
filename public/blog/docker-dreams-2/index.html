@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Docker🐬 Dreams💭-2 | Achanandhi M</title>
+<meta name="keywords" content="Contanier, Devops, Docker, DockerHub, tech, webserver, Nginx">
+<meta name="description" content="Docker for Begineer Series">
+<meta name="author" content="Achanandhi M">
+<link rel="canonical" href="http://example.org/blog/docker-dreams-2/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://example.org/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://example.org/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://example.org/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://example.org/apple-touch-icon.png">
+<link rel="mask-icon" href="http://example.org/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Docker🐬 Dreams💭-2" />
+<meta property="og:description" content="Docker for Begineer Series" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/blog/docker-dreams-2/" />
+<meta property="og:image" content="http://example.org/blogs/dockerpng.png" /><meta property="article:section" content="blog" />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://example.org/blogs/dockerpng.png" />
+<meta name="twitter:title" content="Docker🐬 Dreams💭-2"/>
+<meta name="twitter:description" content="Docker for Begineer Series"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blogs",
+      "item": "http://example.org/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Docker🐬 Dreams💭-2",
+      "item": "http://example.org/blog/docker-dreams-2/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Docker🐬 Dreams💭-2",
+  "name": "Docker🐬 Dreams💭-2",
+  "description": "Docker for Begineer Series",
+  "keywords": [
+    "Contanier", "Devops", "Docker", "DockerHub", "tech", "webserver", "Nginx"
+  ],
+  "articleBody": "Hi friends🙋‍♂️ welcome back to Blogs-with-Achu, we have started the Docker🐬 Learning series, In my previous Blog⏮️ we saw about docker images and containers with real examples.\nToday’s Exciting Blog Agenda:\n**Web Servers: Your Website’s Backbone!**🦴\nRunning a Web Server Inside a Container🐬\nExposing Your Website to the World! 🌐\nWhat’s Next in our Docker Journey?🌈🚀\nConclusion🏁\n**Web Servers: Your Website’s Backbone!**🦴 Before we delve into web servers, we first need to understand what is the server? Don’t get overwhelmed😵 when you hear the term server, see basically server is a computer💻 only, the server has high computing power and memory resource than our normal machines. Our normal computer is designed for small use cases, but servers are meant for high-performing tasks💪. The main purpose of the server is to provide service, Hmm…..what kind of service?🤔 The service depends on the use case if the server belongs to a web server, then the server serves websites, if the server belongs to a file server like FTP, it stores and manages files related to the client, if the server belongs to email server then it belongs to provides service related email, so they are many servers, the main goals of these servers is to provide service to the user with zero downtime.\nIn Simple terms,\nServer: A computer or system that provides services or resources to other computers or devices on a network.\nWeb Server: A specialized server that stores and delivers website files to users’ web browsers when they access a website on the internet.\nProblems with physical data centers servers\nBut when we are talking about servers, we need to consider one important factor maintenance, Maintenance ? for what? For server only, Server is like our computer, But It is a big computer, and it needs to run continuously 24X7 for providing service to the user, Thing in the way if my server is running 24X7 it needs a continuous power supply, a separate person to monitor the performance of the server if my server is down or crashed my user will not get the service, so separate person needs to monitor the health of the user, Now we are dealing with a single server, but what happens when our user is increased?⬆️ our single server is not able to handle the request from a user, so we need an additional server when our user base is increasing. See on the flip side we purchased 100 servers due to an increase in userbase, what happens when unfortunately the userbase is decreased, our 100 purchased server is a waste, our purchasing cost is a waste, and our human resources is a waste in this situation.\nOnly one solution for the above problem is to migrate to the cloud,☁️ It will take care of you. Again this is a separate topic we will cover in another blog, I have already written blogs related to the cloud, if you want to know check it out.\nRunning a Web Server Inside a Container🏃‍♂️\nNow we focus on how to run our web server in our docker container. One thing I want to mention here is that you don’t need to purchase any server or don’t want to set up any server in the cloud or on-premises for this example, because we are testing in our local system as a local host, running our web server locally does not require any requirements, you just need to install web server like Apache or Nginx, these two web servers are most popular and both are open source.\nIn our previous example, we ran hello world using hello-world docker image, the same methodology here, first, we need to pull the image and we want to run the container using that image, and finally, we want to expose the container that’s all.\nLet’s start by identifying our end goals, what is our end goal guys? we need to run a web server inside a docker container, so we need to pull the image related to a web server in this case either Apache or Nginx, you can choose either one based on your use case. For this example, we use Nginx as our web server.\nUse this command to pull the Nginx web server\ndocker pull nginx we have successfully pulled the nginx image from the Docker hub, Next check it once we have that image by typing the command\ndocker images Next we have create an isolated environment (container) for running our Nginx image By using the command\ndocker run -d -p 80:80 --name nginx-container nginx Here –d flag is used for running a container in a detached mode which means running in the background, –name flag is used to name a container, we can give any name to a container, but remember two containers should not have the same container. The -p flag which I will mention in later part of this section.\nNext, we have to deploy our web page to the nginx web server, there are two ways we can do it, one by the manual method that is we deploy our webpage in the nginx directory, and another one is my favorite method is by automating the deployment process while building the docker image itself by using Dockerfile. But now in this, we see the first method and the second we will see on Next blog.\nThere is a separate command to enter into the docker container, the directory that is also present inside the docker container.\ndocker exec -it nginx-container sh Here exec is a Docker sub-command that allows you to run a command inside a running container, -it these are options used together to make the execution interactive. The “-i” option enables interactive mode, and the “-t” option allocates a pseudo-tty, which provides a terminal-like interface for interaction, nginx-container is the name of the container and finally sh is command we want to run inside the container. In this case, we are specifying “sh,” which starts an interactive shell session in the container.\nHere is the directory path where we want to deploy our webpage: /usr/share/nginx/html\nWe are now inside the docker container, the shell session is open inside the docker container, and we need to deploy our webpage inside the directory which I mentioned in above.\nWe are now inside the directory, we need to deploy our webpage in this directory, we need something called a text editor because if are manually deploying means we need a text editor for coding and deploying in that directory, I use Vim use can also use emacs or nano other as well as.\napt-get update #for updating the installed packages apt install vim #for installing vim text editor vim hello.html #you can give any name for your html file vim is a command used to open the Vim text editor following our file name.\nOnce u typed vi hello.html the blank page will open you can write your code in that and once you finished press the ESC button and type wq for saving your file.\nOnce finished we can check by typing ls command\nBoom, We successfully deployed our webpage inside the nginx web server which is running in a docker container. By default the docker container is not accessible outside the docker network, then how we can access our web page deployed in the Nginx web server?\nExposing Your Website to the World! 🌐\ndocker run -d --name -p 80:80 nginx-container nginx we previously used this command for creating an instance of our image, there I didn’t mention the -p flag, I think it is the correct place to explain. If you want to make a Docker container accessible from outside the Docker network, you need to explicitly publish the container’s ports to the host system using the -p option when running the container. This process is known as port mapping or port forwarding. By doing this, you can access the exposed ports of the container through the host system’s IP address or hostname. That why we need -p to mention in the command.\nhttp://yourHostIpaddress/yourFileName http://192.168.174.128/hello.html Wow, We have done it congratulations we have successfully deployed and accessed our webpage. If you got it error like “This site can’t be reached” we accessing, sorry you made a mistake, please cross-check it, surely u will get it. If you are struck and getting error means , please free to mention it in a comment section , I will surely help you.\nWhat’s Next in our Docker Journey?🌈🚀\nIn our next blog, we can see the same example by automating the deployment process by using Dockerfile.\nConclusion🏁\nIf you have any doubts, please mention them in the comment section. Let’s keep up the enthusiasm and explore the real power of Docker in our upcoming blog. See you in the next blog. Happy learning and happy reading! 📖\nRegards\nAchanandhi M👦\n",
+  "wordCount" : "1477",
+  "inLanguage": "en",
+  "image":"http://example.org/blogs/dockerpng.png","datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Achanandhi M"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://example.org/blog/docker-dreams-2/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Achanandhi M",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://example.org/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://example.org/" accesskey="h" title="Achanandhi M (Alt + H)">Achanandhi M</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://example.org/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/blog" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/projects" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/experience" title="Experience">
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://example.org/">Home</a>&nbsp;»&nbsp;<a href="http://example.org/blog/">Blogs</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Docker🐬 Dreams💭-2
+    </h1>
+    <div class="post-description">
+      Docker for Begineer Series
+    </div>
+    <div class="post-meta">7 min&nbsp;·&nbsp;Achanandhi M
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="eager" src="http://example.org/blogs/dockerpng.png" alt="">
+        
+</figure>
+
+  <div class="post-content"><p>Hi friends🙋‍♂️ welcome back to Blogs-with-Achu, we have started the Docker🐬 Learning series, In my previous Blog⏮️ we saw about <strong><em>docker images and containers with real examples</em></strong>.</p>
+<p><strong>Today&rsquo;s Exciting Blog Agenda:</strong></p>
+<ol>
+<li>
+<p>**Web Servers: Your Website&rsquo;s Backbone!**🦴</p>
+</li>
+<li>
+<p><strong>Running a Web Server Inside a Container</strong>🐬</p>
+</li>
+<li>
+<p><strong>Exposing Your Website to the World! 🌐</strong></p>
+</li>
+<li>
+<p><strong>What&rsquo;s Next in our Docker Journey?🌈🚀</strong></p>
+</li>
+<li>
+<p><strong>Conclusion</strong>🏁</p>
+</li>
+</ol>
+<ol>
+<li>**Web Servers: Your Website&rsquo;s Backbone!**🦴</li>
+</ol>
+<p>Before we delve into web servers, we first need to understand what is the server? Don&rsquo;t get overwhelmed😵 when you hear the term server, see basically server is a computer💻 only, the server has high computing power and memory resource than our normal machines. Our normal computer is designed for small use cases, but servers are meant for high-performing tasks💪. The main purpose of the server is to provide service, Hmm&hellip;..what kind of service?🤔 The service depends on the use case if the server belongs to a web server, then the server serves websites, if the server belongs to a file server like FTP, it stores and manages files related to the client, if the server belongs to email server then it belongs to provides service related email, so they are many servers, the main goals of these servers is to provide service to the user with zero downtime.</p>
+<p>In <strong>Simple terms</strong>,</p>
+<p><strong>Server</strong>: A computer or system that provides services or resources to other computers or devices on a network.</p>
+<p><strong>Web Server</strong>: A specialized server that stores and delivers website files to users&rsquo; web browsers when they access a website on the internet.</p>
+<p><strong>Problems with physical data centers servers</strong></p>
+<p>But when we are talking about servers, we need to consider one important factor maintenance, Maintenance ? for what? For server only, Server is like our computer, But It is a big computer, and it needs to run continuously 24X7 for providing service to the user, Thing in the way if my server is running 24X7 it needs a continuous power supply, a separate person to monitor the performance of the server if my server is down or crashed my user will not get the service, so separate person needs to monitor the health of the user, Now we are dealing with a single server, but what happens when our user is increased?⬆️ our single server is not able to handle the request from a user, so we need an additional server when our user base is increasing. See on the flip side we purchased 100 servers due to an increase in userbase, what happens when unfortunately the userbase is decreased, our 100 purchased server is a waste, our purchasing cost is a waste, and our human resources is a waste in this situation.</p>
+<p>Only one solution for the above problem is to migrate to the cloud,☁️ It will take care of you. Again this is a separate topic we will cover in another blog, I have already written blogs related to the cloud, if you want to know check it out.</p>
+<p><strong>Running a Web Server Inside a Container</strong>🏃‍♂️</p>
+<p>Now we focus on how to run our web server in our docker container. One thing I want to mention here is that you don&rsquo;t need to purchase any server or don&rsquo;t want to set up any server in the cloud or on-premises for this example, because we are testing in our local system as a local host, running our web server locally does not require any requirements, you just need to install web server like Apache or Nginx, these two web servers are most popular and both are open source.</p>
+<p>In our previous example, we ran hello world using hello-world docker image, the same methodology here, first, we need to pull the image and we want to run the container using that image, and finally, we want to expose the container that&rsquo;s all.</p>
+<p>Let&rsquo;s start by identifying our end goals, what is our end goal guys? we need to run a web server inside a docker container, so we need to pull the image related to a web server in this case either Apache or Nginx, you can choose either one based on your use case. For this example, we use Nginx as our web server.</p>
+<p><strong>Use this command to pull the Nginx web server</strong></p>
+<pre tabindex="0"><code>docker pull nginx
+</code></pre><p><img loading="lazy" src="/my-demo-portfolio/static/blogs/img-1.png" alt=""  />
+</p>
+<p>we have successfully pulled the nginx image from the Docker hub, Next check it once we have that image by typing the command</p>
+<pre tabindex="0"><code>docker images
+</code></pre><p><img loading="lazy" src="/my-demo-portfolio/static/blogs/img-2.png" alt=""  />
+</p>
+<p>Next we have create an isolated environment (container) for running our Nginx image By using the command</p>
+<pre tabindex="0"><code>docker run -d -p 80:80 --name nginx-container nginx
+</code></pre><p><img loading="lazy" src="/my-demo-portfolio/static/blogs/img-11.png" alt=""  />
+</p>
+<p>Here &ndash;d flag is used for running a container in a detached mode which means running in the background, &ndash;name flag is used to name a container, we can give any name to a container, but remember two containers should not have the same container. The -p flag which I will mention in later part of this section.</p>
+<p>Next, we have to deploy our web page to the nginx web server, there are two ways we can do it, one by the manual method that is we deploy our webpage in the nginx directory, and another one is my favorite method is by automating the deployment process while building the docker image itself by using Dockerfile. But now in this, we see the first method and the second we will see on Next blog.</p>
+<p>There is a separate command to enter into the docker container, the directory that is also present inside the docker container.</p>
+<pre tabindex="0"><code>docker exec -it nginx-container sh
+</code></pre><p>Here exec is a Docker sub-command that allows you to run a command inside a running container, -it these are options used together to make the execution interactive. The &ldquo;-i&rdquo; option enables interactive mode, and the &ldquo;-t&rdquo; option allocates a pseudo-tty, which provides a terminal-like interface for interaction, nginx-container is the name of the container and finally sh is command we want to run inside the container. In this case, we are specifying &ldquo;sh,&rdquo; which starts an interactive shell session in the container.</p>
+<p><strong>Here is the directory path where we want to deploy our webpage: /usr/share/nginx/html</strong></p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/img-4.png" alt=""  />
+</p>
+<p>We are now inside the docker container, the shell session is open inside the docker container, and we need to deploy our webpage inside the directory which I mentioned in above.</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/img-5.png" alt=""  />
+</p>
+<p>We are now inside the directory, we need to deploy our webpage in this directory, we need something called a text editor because if are manually deploying means we need a text editor for coding and deploying in that directory, I use Vim use can also use emacs or nano other as well as.</p>
+<pre tabindex="0"><code>apt-get update #for updating the installed packages
+apt install vim #for installing vim text editor
+vim hello.html #you can give any name for your html file
+</code></pre><p>vim is a command used to open the Vim text editor following our file name.</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/img-7.png" alt=""  />
+</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/img-8.png" alt=""  />
+</p>
+<p>Once u typed vi hello.html the blank page will open you can write your code in that and once you finished press the ESC button and type wq for saving your file.</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/img-9.png" alt=""  />
+</p>
+<p>Once finished we can check by typing ls command</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/img-10-1.png" alt=""  />
+</p>
+<p>Boom, We successfully deployed our webpage inside the nginx web server which is running in a docker container. By default the docker container is not accessible outside the docker network, then how we can access our web page deployed in the Nginx web server?</p>
+<p><strong>Exposing Your Website to the World! 🌐</strong></p>
+<pre tabindex="0"><code>docker run -d --name -p 80:80 nginx-container nginx
+</code></pre><p>we previously used this command for creating an instance of our image, there I didn&rsquo;t mention the -p flag, I think it is the correct place to explain. If you want to make a Docker container accessible from outside the Docker network, you need to explicitly publish the container&rsquo;s ports to the host system using the <code>-p</code> option when running the container. This process is known as port mapping or port forwarding. By doing this, you can access the exposed ports of the container through the host system&rsquo;s IP address or hostname. That why we need -p to mention in the command.</p>
+<pre tabindex="0"><code>http://yourHostIpaddress/yourFileName
+http://192.168.174.128/hello.html
+</code></pre><p><img loading="lazy" src="/my-demo-portfolio/static/blogs/output.png" alt=""  />
+</p>
+<p>Wow, We have done it congratulations we have successfully deployed and accessed our webpage. If you got it error like &ldquo;This site can’t be reached&rdquo; we accessing, sorry you made a mistake, please cross-check it, surely u will get it. If you are struck and getting error means , please free to mention it in a comment section , I will surely help you.</p>
+<p><strong>What&rsquo;s Next in our Docker Journey?🌈🚀</strong></p>
+<p>In our next blog, we can see the same example by automating the deployment process by using Dockerfile.</p>
+<p><strong>Conclusion</strong>🏁</p>
+<p>If you have any doubts, please mention them in the comment section. Let&rsquo;s keep up the enthusiasm and explore the real power of Docker in our upcoming blog. See you in the next blog. Happy learning and happy reading! 📖</p>
+<p>Regards</p>
+<p>Achanandhi M👦</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://example.org/tags/contanier/">Contanier</a></li>
+      <li><a href="http://example.org/tags/devops/">DevOps</a></li>
+      <li><a href="http://example.org/tags/docker/">Docker</a></li>
+      <li><a href="http://example.org/tags/dockerhub/">DockerHub</a></li>
+      <li><a href="http://example.org/tags/tech/">tech</a></li>
+      <li><a href="http://example.org/tags/webserver/">webserver</a></li>
+      <li><a href="http://example.org/tags/nginx/">Nginx</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://example.org/blog/docker-dreams-3/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Docker🐬 Dreams💭-3</span>
+  </a>
+  <a class="next" href="http://example.org/blog/docker-dreams-1/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Docker🐬 Dreams💭-1</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span> Made ❤️ with <a href="http://example.org/">Achanandhi M</a></span>
+    <span>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

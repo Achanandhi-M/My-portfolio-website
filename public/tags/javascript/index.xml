@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Javascript on Achanandhi M</title>
+    <link>http://example.org/tags/javascript/</link>
+    <description>Recent content in Javascript on Achanandhi M</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="http://example.org/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web Application CI/CD Automation with Jenkins, Git, and Docker</title>
+      <link>http://example.org/projects/cd-automation-with-jenkins-git-and-docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/projects/cd-automation-with-jenkins-git-and-docker/</guid>
+      <description>Automating the Web Application Deployment</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://example.org/projects/cd-pipeline-for-web-application-with-elastic-beanstalk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/projects/cd-pipeline-for-web-application-with-elastic-beanstalk/</guid>
+      <description>Automating the Web Application Deployment</description>
+    </item>
+    <item>
+      <title>Static-website-in-K8s</title>
+      <link>http://example.org/projects/static-website-in-k8s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/projects/static-website-in-k8s/</guid>
+      <description>Deploying our custom website inside k8s using k8s object deployment and service</description>
+    </item>
+    <item>
+      <title>Server-in-Nodejs</title>
+      <link>http://example.org/projects/server-in-nodejs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/projects/server-in-nodejs/</guid>
+      <description>Creating and deploying node image</description>
+    </item>
+    <item>
+      <title>Web Application Intern</title>
+      <link>http://example.org/experience/itransz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/experience/itransz/</guid>
+      <description>Itransz | Tamil nadu, Chennai</description>
+    </item>
+  </channel>
+</rss>

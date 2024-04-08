@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DevOps on Achanandhi M</title>
+    <link>http://example.org/tags/devops/</link>
+    <description>Recent content in DevOps on Achanandhi M</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="http://example.org/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS for Newbies-01🦋</title>
+      <link>http://example.org/blog/aws-for-newbies-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/blog/aws-for-newbies-01/</guid>
+      <description>How I passed the AWS Developer - Associate Certification Exam (DVA-C02)</description>
+    </item>
+    <item>
+      <title>AWS for Newbies🦋</title>
+      <link>http://example.org/blog/aws-for-newbies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/blog/aws-for-newbies/</guid>
+      <description>Getting Started with AWS</description>
+    </item>
+    <item>
+      <title>Docker🐬 Dreams💭-4</title>
+      <link>http://example.org/blog/docker-dreams-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/blog/docker-dreams-4/</guid>
+      <description>Docker for Begineer Series</description>
+    </item>
+    <item>
+      <title>Getting Started With LocalStack</title>
+      <link>http://example.org/blog/getting-started-with-localstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/blog/getting-started-with-localstack/</guid>
+      <description>LocalStack is a tool that runs on your local machine that emulates AWS API.</description>
+    </item>
+    <item>
+      <title>Introduction to LocalStack</title>
+      <link>http://example.org/blog/introduction-to-localstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/blog/introduction-to-localstack/</guid>
+      <description>Test AWS Cloud  Locally</description>
+    </item>
+    <item>
+      <title>Docker🐬 Dreams💭-3</title>
+      <link>http://example.org/blog/docker-dreams-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/blog/docker-dreams-3/</guid>
+      <description>Docker for Begineer Series</description>
+    </item>
+    <item>
+      <title>Docker🐬 Dreams💭-2</title>
+      <link>http://example.org/blog/docker-dreams-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/blog/docker-dreams-2/</guid>
+      <description>Docker for Begineer Series</description>
+    </item>
+    <item>
+      <title>Docker🐬 Dreams💭-1</title>
+      <link>http://example.org/blog/docker-dreams-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/blog/docker-dreams-1/</guid>
+      <description>Docker for Begineer Series</description>
+    </item>
+    <item>
+      <title>Docker🐬 Dreams💭-0</title>
+      <link>http://example.org/blog/docker-dreams-0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/blog/docker-dreams-0/</guid>
+      <description>Docker for Begineer Series</description>
+    </item>
+    <item>
+      <title>Docker🐬 Dreams💭</title>
+      <link>http://example.org/blog/docker-dreams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/blog/docker-dreams/</guid>
+      <description>Docker for Beginner&amp;#39;s</description>
+    </item>
+    <item>
+      <title>Exploring 🐬the World of Containers</title>
+      <link>http://example.org/blog/exploring-the-world-of-containers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/blog/exploring-the-world-of-containers/</guid>
+      <description>Use Container for deployment
+Hi friends, welcome back to Blogs-with-Achu! In today&amp;rsquo;s fast-paced technological landscape, containers have emerged as a powerful software development and deployment solution. If you&amp;rsquo;re interested in learning containerization, you don&amp;rsquo;t need any specific prerequisites.😁
+In Today&amp;rsquo;s Blog:
+What is Container?🤔
+Why it is so popular?🤔
+Is VM?☠️
+Containerization Technology💻
+Summary🏁
+**What is Container?**🤔
+A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.</description>
+    </item>
+    <item>
+      <title>AWS Two tier Application</title>
+      <link>http://example.org/projects/aws-two-tier-application/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/projects/aws-two-tier-application/</guid>
+      <description>Creating Two tier Application using Amazon EC2 and Amazon RDS</description>
+    </item>
+    <item>
+      <title>Web Application CI/CD Automation with Jenkins, Git, and Docker</title>
+      <link>http://example.org/projects/cd-automation-with-jenkins-git-and-docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/projects/cd-automation-with-jenkins-git-and-docker/</guid>
+      <description>Automating the Web Application Deployment</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://example.org/projects/cd-pipeline-for-web-application-with-elastic-beanstalk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/projects/cd-pipeline-for-web-application-with-elastic-beanstalk/</guid>
+      <description>Automating the Web Application Deployment</description>
+    </item>
+    <item>
+      <title>Python-todo-application</title>
+      <link>http://example.org/projects/-python-todo-application/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/projects/-python-todo-application/</guid>
+      <description>Creating todo with python flask</description>
+    </item>
+    <item>
+      <title>AWS  boto3 project</title>
+      <link>http://example.org/projects/-aws-boto3-project-/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/projects/-aws-boto3-project-/</guid>
+      <description>Talking with AWS Through python code</description>
+    </item>
+    <item>
+      <title>Static-website-in-K8s</title>
+      <link>http://example.org/projects/static-website-in-k8s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/projects/static-website-in-k8s/</guid>
+      <description>Deploying our custom website inside k8s using k8s object deployment and service</description>
+    </item>
+    <item>
+      <title>Server-in-Nodejs</title>
+      <link>http://example.org/projects/server-in-nodejs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/projects/server-in-nodejs/</guid>
+      <description>Creating and deploying node image</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Introduction to LocalStack | Achanandhi M</title>
+<meta name="keywords" content="tech, AWS, cloudnative, LocalStack, Devops">
+<meta name="description" content="Test AWS Cloud  Locally">
+<meta name="author" content="Achanandhi M">
+<link rel="canonical" href="http://example.org/blog/introduction-to-localstack/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://example.org/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://example.org/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://example.org/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://example.org/apple-touch-icon.png">
+<link rel="mask-icon" href="http://example.org/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Introduction to LocalStack" />
+<meta property="og:description" content="Test AWS Cloud  Locally" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/blog/introduction-to-localstack/" />
+<meta property="og:image" content="http://example.org/blogs/localstack.jpeg" /><meta property="article:section" content="blog" />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://example.org/blogs/localstack.jpeg" />
+<meta name="twitter:title" content="Introduction to LocalStack"/>
+<meta name="twitter:description" content="Test AWS Cloud  Locally"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blogs",
+      "item": "http://example.org/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Introduction to LocalStack",
+      "item": "http://example.org/blog/introduction-to-localstack/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Introduction to LocalStack",
+  "name": "Introduction to LocalStack",
+  "description": "Test AWS Cloud  Locally",
+  "keywords": [
+    "tech", "AWS", "cloudnative", "LocalStack", "Devops"
+  ],
+  "articleBody": "Hi friends🙋‍♂️ welcome back to Blogs-with-Achu, we have already started the Docker🐬 Learning series, In my previous Blog⏮️ we saw about what is Dockerfile? and with Examples. Yeah, Docker is like an Ocean we need to learn a lot, we still have not yet covered the essential part, but here after we can’t focus only on Docker, instead, we’ll explore and experiment with other technologies. Hereafter we can focus more on AWS, LocalStack, Docker, and K8s. Trust me Guys, We can start from Scratch, I am also new to LocalStack, and I didn’t have any experience in working with LocalStack, so no worries let’s get started together.\nToday’s Agenda\nWhat is LocalStack? why do we need it?🤔\nis LocalStack is alternative to AWS?🤔\nis LocalStack only for AWS?🤔\nBonus Tips\nConclusion\n1. What is LocalStack? why do we need it?\nLocalStack is a Free and Open Source\nAccording to LocalStack Docs, LocalStack is a cloud service emulator that runs in a single container on your laptop or in your CI environment. With LocalStack, you can run your AWS applications or Lambdas entirely on your local machine without connecting to a remote cloud provider!\nIn simple terms, we can run AWS services in our Local Environment, without the need to pay a single dollar for using the service. We can get an exact clone of AWS in LocalStack, and see how amazing it is, we can use LocalStack for testing our cloud apps locally on our computers.\n_Why do we need it?_🤔\nThis Meme is just to Explain its purpose\nEveryone has this Question, why do we need LocalStack?🤔 See the basic problem the LocalStack solves is we can test our entire cloud apps locally, if we want to test in AWS cloud, we have to pay for them, And also it takes more time, so we don’t want that right, In LocalStack we can test our services within seconds or minutes. LocalStack provides major AWS Services like Lambda, S3, EC2, EKS, ECR, IAM, etc. Please check out the documentation link for other services. One thing I want to mention here guys, LocalStack is also using containers for providing our local cloud Environment.\n2 . is LocalStack is alternative to AWS❓\nOne thing I want to mention here guys, LocalStack and AWS has different use cases, don’t think LocalStack is an alternative to AWS. AWS is the king of the cloud computing world, there offers nearly 200+ services. LocalStack has use cases where u can develop and test the AWS cloud.\n_This Meme is just to show how powerful the AWS cloud_🚀\n3. is LocalStack only for AWS?\nCurrently, LocalStack supports AWS cloud only, I don’t know what about the other cloud, Maybe in the future they develop for other cloud providers as well. LocalStack: Your AWS Ally in Local Development.\nAs everyone knows AWS is updating their services every day, is any update happens in AWS services it will soon also replicate in LocalStack as well, Don’t Worry about that.\nOne thing I was so excited about LocalStack is Free and open source, apart from this it is free to use AWS Cloud Services, and it contains also pods feature for collaboration. Apart from that it can also as used as Iac(Infrastructure as a code) it also supports many Iac providers, for free of cost. Why not give it a try?\n4. Bonus Tips🌈\nThe Bonus trip is all about LocalStack Free Educational License, you can get access to all features on the community and professional edition of LocalStack. You heard that right? Just apply for it, if your Student and educators. Click this [link](http://Get access to all features on the community and professional edition of LocalStack.) to apply.\n5. Conclusion🏁\nIn Summary, LocalStack and AWS: Bridging Cloud Services with Local Innovation. That’s all about guys, we have seen more theory parts in this blog, and we will have more hands-on and get started with LocalStack in our Upcoming Blogs. If you have any doubts, please mention them in the comment section. Let’s keep up the enthusiasm and explore the real power of LocalStack in our upcoming blog. See you in the next blog. Happy learning and happy reading! 📖\nRegards\nAchanandhi M👦\n",
+  "wordCount" : "703",
+  "inLanguage": "en",
+  "image":"http://example.org/blogs/localstack.jpeg","datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Achanandhi M"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://example.org/blog/introduction-to-localstack/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Achanandhi M",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://example.org/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://example.org/" accesskey="h" title="Achanandhi M (Alt + H)">Achanandhi M</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://example.org/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/blog" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/projects" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/experience" title="Experience">
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://example.org/">Home</a>&nbsp;»&nbsp;<a href="http://example.org/blog/">Blogs</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Introduction to LocalStack
+    </h1>
+    <div class="post-description">
+      Test AWS Cloud  Locally
+    </div>
+    <div class="post-meta">4 min&nbsp;·&nbsp;Achanandhi M
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="eager" src="http://example.org/blogs/localstack.jpeg" alt="">
+        
+</figure>
+
+  <div class="post-content"><p>Hi friends🙋‍♂️ welcome back to Blogs-with-Achu, we have already started the Docker🐬 Learning series, In my previous Blog⏮️ we saw about what is Dockerfile? and with Examples. Yeah, Docker is like an Ocean we need to learn a lot, we still have not yet covered the essential part, but here after we can&rsquo;t focus only on Docker, instead, we&rsquo;ll explore and experiment with other technologies. Hereafter we can focus more on AWS, LocalStack, Docker, and K8s. Trust me Guys, We can start from Scratch, I am also new to LocalStack, and I didn&rsquo;t have any experience in working with LocalStack, so no worries let&rsquo;s get started together.</p>
+<p><strong>Today&rsquo;s Agenda</strong></p>
+<ol>
+<li>
+<p><strong>What is LocalStack? why do we need it?🤔</strong></p>
+</li>
+<li>
+<p><strong>is LocalStack is alternative to AWS?🤔</strong></p>
+</li>
+<li>
+<p><strong>is LocalStack only for AWS?🤔</strong></p>
+</li>
+<li>
+<p><strong>Bonus Tips</strong></p>
+</li>
+<li>
+<p><strong>Conclusion</strong></p>
+</li>
+</ol>
+<p><strong>1</strong>. <strong>What is LocalStack? why do we need it?</strong></p>
+<p><strong><em>LocalStack is a Free and Open Source</em></strong></p>
+<p><strong>According to LocalStack Docs,</strong> <a href="https://localstack.cloud">LocalStack</a> is a cloud service emulator that runs in a single container on your laptop or in your CI environment. With LocalStack, you can run your AWS applications or Lambdas entirely on your local machine without connecting to a remote cloud provider!</p>
+<p>In simple terms, we can run AWS services in our Local Environment, without the need to pay a single dollar for using the service. We can get an exact clone of AWS in LocalStack, and see how amazing it is, we can use LocalStack for testing our cloud apps locally on our computers.</p>
+<p><strong>_Why do we need it?_🤔</strong></p>
+<p><strong><em>This Meme is just to Explain its purpose</em></strong></p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/localstack-02.jpeg" alt=""  />
+</p>
+<p>Everyone has this Question, why do we need LocalStack?<strong>🤔</strong> See the basic problem the LocalStack solves is we can test our entire cloud apps locally, if we want to test in AWS cloud, we have to pay for them, And also it takes more time, so we don&rsquo;t want that right, In LocalStack we can test our services within seconds or minutes. LocalStack provides major AWS Services like Lambda, S3, EC2, EKS, ECR, IAM, etc. Please check out the documentation link for other services. One thing I want to mention here guys, LocalStack is also using containers for providing our local cloud Environment.</p>
+<p><strong>2 . is LocalStack is alternative to AWS</strong>❓</p>
+<p>One thing I want to mention here guys, LocalStack and AWS has different use cases, don&rsquo;t think LocalStack is an alternative to AWS. AWS is the king of the cloud computing world, there offers nearly 200+ services. LocalStack has use cases where u can develop and test the AWS cloud.</p>
+<p><strong>_This Meme is just to show how powerful the AWS cloud_🚀</strong></p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/localstack-03.jpeg" alt=""  />
+</p>
+<p><strong>3. is LocalStack only for AWS?</strong></p>
+<p>Currently, LocalStack supports AWS cloud only, I don&rsquo;t know what about the other cloud, Maybe in the future they develop for other cloud providers as well. <strong><em>LocalStack: Your AWS Ally in Local Development</em></strong>.</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/localstack-04.jpeg" alt=""  />
+</p>
+<p>As everyone knows AWS is updating their services every day, is any update happens in AWS services it will soon also replicate in LocalStack as well, Don&rsquo;t Worry about that.</p>
+<p>One thing I was so excited about LocalStack is Free and open source, apart from this it is free to use AWS Cloud Services, and it contains also pods feature for collaboration. Apart from that it can also as used as Iac(Infrastructure as a code) it also supports many Iac providers, for free of cost. Why not give it a try?</p>
+<p>4. <strong>Bonus Tips🌈</strong></p>
+<p>The Bonus trip is all about LocalStack Free Educational License, you can get access to all features on the community and professional edition of LocalStack. You heard that right? Just apply for it, if your Student and educators. Click this [link](http://Get access to all features on the community and professional edition of LocalStack.) to apply.</p>
+<p>5. <strong>Conclusion</strong>🏁</p>
+<p>In Summary, LocalStack and AWS: Bridging Cloud Services with Local Innovation. That&rsquo;s all about guys, we have seen more theory parts in this blog, and we will have more hands-on and get started with LocalStack in our Upcoming Blogs. If you have any doubts, please mention them in the comment section. Let&rsquo;s keep up the enthusiasm and explore the real power of LocalStack in our upcoming blog. See you in the next blog. Happy learning and happy reading! 📖</p>
+<p>Regards</p>
+<p>Achanandhi M👦</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://example.org/tags/tech/">tech</a></li>
+      <li><a href="http://example.org/tags/aws/">aws</a></li>
+      <li><a href="http://example.org/tags/cloudnative/">cloudnative</a></li>
+      <li><a href="http://example.org/tags/localstack/">LocalStack</a></li>
+      <li><a href="http://example.org/tags/devops/">DevOps</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://example.org/blog/machine-learning-on-aws/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Machine Learning On AWS</span>
+  </a>
+  <a class="next" href="http://example.org/blog/docker-dreams-3/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Docker🐬 Dreams💭-3</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span> Made ❤️ with <a href="http://example.org/">Achanandhi M</a></span>
+    <span>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Docker🐬 Dreams💭-4 | Achanandhi M</title>
+<meta name="keywords" content="Contanier, Devops, Docker, DockerHub, tech">
+<meta name="description" content="Docker for Begineer Series">
+<meta name="author" content="Achanandhi M">
+<link rel="canonical" href="http://example.org/blog/docker-dreams-4/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://example.org/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://example.org/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://example.org/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://example.org/apple-touch-icon.png">
+<link rel="mask-icon" href="http://example.org/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Docker🐬 Dreams💭-4" />
+<meta property="og:description" content="Docker for Begineer Series" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/blog/docker-dreams-4/" />
+<meta property="og:image" content="http://example.org/blogs/docker-4.jpeg" /><meta property="article:section" content="blog" />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://example.org/blogs/docker-4.jpeg" />
+<meta name="twitter:title" content="Docker🐬 Dreams💭-4"/>
+<meta name="twitter:description" content="Docker for Begineer Series"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blogs",
+      "item": "http://example.org/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Docker🐬 Dreams💭-4",
+      "item": "http://example.org/blog/docker-dreams-4/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Docker🐬 Dreams💭-4",
+  "name": "Docker🐬 Dreams💭-4",
+  "description": "Docker for Begineer Series",
+  "keywords": [
+    "Contanier", "Devops", "Docker", "DockerHub", "tech"
+  ],
+  "articleBody": "Hi friends🙋‍♂️ welcome back to Blogs-with-Achu. This blog is the continuation of our Docker Dreams learning series. We learned a little about containers and docker in our previous docker-related blogs. Today we will see about Docker Hub_(a place where we store our images)._\nIn this Blog:\nWhat is Docker Hub? Why do we need it❓🤔\nHow to publish your own image to Docker Hub❓🤔\nDemo part ⛵️🚀\nWhat next?🌈🚀\nSummary🏁\nWhat is Docker Hub? Why do we need it❓\nDocker hub serves as a repository where developers can store, share, and distribute container images. we already know about the container images which contain everything needed to run a piece of software, including the code, runtime, libraries, and system tools. Docker Hub provides a central location for developers to find and use pre-built container images, streamlining the process of packaging and deploying applications in containers.\nDocker Hub is a concept more likely related to GitHub. we use GitHub for project collaboration with multiple developers who are working on the projects. The same concepts are used here we are using Docker Hub for storing our container images, and GitHub for storing our code. In both concepts, we can use the version control method.\nHow to publish your own image to Docker Hub❓🤔\nPublishing our images to Docker Hub is not rocket science, we can easily push our image to Docker Hub in just two commands. Before publishing, we need to create an account in Docker Hub.\nIf you don’t have an account use think link https://hub.docker.com/signup to signup\nOnce you created an account, it some how look like this\nOnce you log in you don’t see any repository, but in the above image, there are two images are there which were created by myself.\n**Note:**⚠️\nDocker Hub offers two kinds of service community edition and pro edition, the difference between them is in the Pro edition we have the option to store our images privately, but in the community edition, we also have the option to store one image private, we need to store our image public in the community edition. Choose the option based on your use case.\nDemo part ⛵️🚀\nI think we have seen enough theory, it’s time to get our hands dirty.\nsudo docker images #use to list the images You can also build your own application in the image and push that image into Docker Hub, and once it is uploaded anyone can pull it and use it on their own local machine. I am using my own image for the demo part\ndocker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG] sudo docker tag nginx:alpine achanandhi/nginx:alpine Before pushing the image into the docker hub you need to tag the image.\nsudo docker login #login into docker hub Once you enter the command it will ask you to enter the credentials (email id and password) once you enter the credentials it will log in successfully, the output somewhat looks like this:\nsudo docker push achanandhi/nginx:alpine Once you enter the command, it will push your image from the local computer into the docker hub repository.\nBoom.. we successfully pushed our image, let’s see in the Docker hub repository\nOur docker image is successfully uploaded into the docker hub.\nWhat next?🌈🚀\nOur next target is focusing on cloud providers, and how we use the cloud services related to containers(ECS, Google Cloud run Azure Cloud Instances).\nSummary🏁\nIf you have any doubts, please mention them in the comment section. Let’s keep up the enthusiasm and explore the real power of Docker in our upcoming blog. See you in the next blog. Happy learning and happy reading! 📖\nRegards\nAchanandhi M👦\n",
+  "wordCount" : "605",
+  "inLanguage": "en",
+  "image":"http://example.org/blogs/docker-4.jpeg","datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Achanandhi M"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://example.org/blog/docker-dreams-4/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Achanandhi M",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://example.org/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://example.org/" accesskey="h" title="Achanandhi M (Alt + H)">Achanandhi M</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://example.org/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/blog" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/projects" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/experience" title="Experience">
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://example.org/">Home</a>&nbsp;»&nbsp;<a href="http://example.org/blog/">Blogs</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Docker🐬 Dreams💭-4
+    </h1>
+    <div class="post-description">
+      Docker for Begineer Series
+    </div>
+    <div class="post-meta">3 min&nbsp;·&nbsp;Achanandhi M
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="eager" src="http://example.org/blogs/docker-4.jpeg" alt="">
+        
+</figure>
+
+  <div class="post-content"><p>Hi friends🙋‍♂️ welcome back to Blogs-with-Achu. This blog is the continuation of our Docker Dreams learning series. We learned a little about containers and docker in our previous docker-related blogs. Today we will see about Docker Hub_(a place where we store our images)._</p>
+<p><strong>In this Blog:</strong></p>
+<ul>
+<li>
+<p><strong>What is Docker Hub? Why do we need it</strong>❓<strong>🤔</strong></p>
+</li>
+<li>
+<p><strong>How to publish your own image to Docker Hub</strong>❓<strong>🤔</strong></p>
+</li>
+<li>
+<p><strong>Demo part ⛵️🚀</strong></p>
+</li>
+<li>
+<p><strong>What next?🌈🚀</strong></p>
+</li>
+<li>
+<p><strong>Summary</strong>🏁</p>
+</li>
+</ul>
+<p><strong>What is Docker Hub? Why do we need it</strong>❓</p>
+<p>Docker hub serves as a repository where developers can store, share, and distribute container images. we already know about the container images which contain everything needed to run a piece of software, including the code, runtime, libraries, and system tools. Docker Hub provides a central location for developers to find and use pre-built container images, streamlining the process of packaging and deploying applications in containers.</p>
+<p>Docker Hub is a concept more likely related to GitHub. we use GitHub for project collaboration with multiple developers who are working on the projects. The same concepts are used here we are using Docker Hub for storing our container images, and GitHub for storing our code. In both concepts, we can use the version control method.</p>
+<p><strong>How to publish your own image to Docker Hub</strong>❓<strong>🤔</strong></p>
+<p>Publishing our images to Docker Hub is not rocket science, we can easily push our image to Docker Hub in just two commands. Before publishing, we need to create an account in Docker Hub.</p>
+<p>If you don&rsquo;t have an account use think link <a href="https://hub.docker.com/signup">https://hub.docker.com/signup</a> to signup</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/dockerhub-home.png" alt=""  />
+</p>
+<p><strong>Once you created an account, it some how look like this</strong></p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/dockerhub-home-2.png" alt=""  />
+</p>
+<p><strong>Once you log in you don&rsquo;t see any repository, but in the above image, there are two images are there which were created by myself.</strong></p>
+<p>**<em>Note:</em>**⚠️</p>
+<p><em>Docker Hub offers two kinds of service community edition and pro edition, the difference between them is in the Pro edition we have the option</em> to store our images privately, but in the community edition, we also have the option to store one image private, we need to store our image public in the <em>community edition. Choose the option based on your use case.</em></p>
+<p><strong>Demo part ⛵️🚀</strong></p>
+<p>I think we have seen enough theory, it&rsquo;s time to get our hands dirty.</p>
+<pre tabindex="0"><code>sudo docker  images #use to list the images
+</code></pre><p><img loading="lazy" src="/my-demo-portfolio/static/blogs/terminal.png" alt=""  />
+</p>
+<p>You can also build your own application in the image and push that image into Docker Hub, and once it is uploaded anyone can pull it and use it on their own local machine. I am using my own image for the demo part</p>
+<pre tabindex="0"><code>docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
+sudo docker tag nginx:alpine achanandhi/nginx:alpine
+</code></pre><p>Before pushing the image into the docker hub you need to tag the image.</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/terminal-1.png" alt=""  />
+</p>
+<pre tabindex="0"><code>sudo docker login #login into docker hub
+</code></pre><p>Once you enter the command it will ask you to enter the credentials (email id and password) once you enter the credentials it will log in successfully, the output somewhat looks like this:</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/terminal-02.png" alt=""  />
+</p>
+<pre tabindex="0"><code>sudo docker push  achanandhi/nginx:alpine
+</code></pre><p>Once you enter the command, it will push your image from the local computer into the docker hub repository.</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/terminal-03.png" alt=""  />
+</p>
+<p>Boom.. we successfully pushed our image, let&rsquo;s see in the Docker hub repository</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/dockerhub-home-3.png" alt=""  />
+</p>
+<p>Our docker image is successfully uploaded into the docker hub.</p>
+<p><strong>What next?🌈🚀</strong></p>
+<p>Our next target is focusing on cloud providers, and how we use the cloud services related to containers(ECS, Google Cloud run Azure Cloud Instances).</p>
+<p><strong>Summary</strong>🏁</p>
+<p>If you have any doubts, please mention them in the comment section. Let&rsquo;s keep up the enthusiasm and explore the real power of Docker in our upcoming blog. See you in the next blog. Happy learning and happy reading! 📖</p>
+<p>Regards</p>
+<p>Achanandhi M👦</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://example.org/tags/contanier/">Contanier</a></li>
+      <li><a href="http://example.org/tags/devops/">DevOps</a></li>
+      <li><a href="http://example.org/tags/docker/">Docker</a></li>
+      <li><a href="http://example.org/tags/dockerhub/">DockerHub</a></li>
+      <li><a href="http://example.org/tags/tech/">tech</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://example.org/blog/aws-for-newbies/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>AWS for Newbies🦋</span>
+  </a>
+  <a class="next" href="http://example.org/blog/chatgpt-in-your-local-machine/">
+    <span class="title">Next »</span>
+    <br>
+    <span>ChatGPT in your Local Machine</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span> Made ❤️ with <a href="http://example.org/">Achanandhi M</a></span>
+    <span>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

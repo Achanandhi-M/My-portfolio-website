@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DockerHub on Achanandhi M</title>
+    <link>http://example.org/tags/dockerhub/</link>
+    <description>Recent content in DockerHub on Achanandhi M</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="http://example.org/tags/dockerhub/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker🐬 Dreams💭-4</title>
+      <link>http://example.org/blog/docker-dreams-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/blog/docker-dreams-4/</guid>
+      <description>Docker for Begineer Series</description>
+    </item>
+    <item>
+      <title>Docker🐬 Dreams💭-3</title>
+      <link>http://example.org/blog/docker-dreams-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/blog/docker-dreams-3/</guid>
+      <description>Docker for Begineer Series</description>
+    </item>
+    <item>
+      <title>Docker🐬 Dreams💭-2</title>
+      <link>http://example.org/blog/docker-dreams-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/blog/docker-dreams-2/</guid>
+      <description>Docker for Begineer Series</description>
+    </item>
+    <item>
+      <title>Docker🐬 Dreams💭-1</title>
+      <link>http://example.org/blog/docker-dreams-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/blog/docker-dreams-1/</guid>
+      <description>Docker for Begineer Series</description>
+    </item>
+    <item>
+      <title>Docker🐬 Dreams💭-0</title>
+      <link>http://example.org/blog/docker-dreams-0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/blog/docker-dreams-0/</guid>
+      <description>Docker for Begineer Series</description>
+    </item>
+    <item>
+      <title>Docker🐬 Dreams💭</title>
+      <link>http://example.org/blog/docker-dreams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/blog/docker-dreams/</guid>
+      <description>Docker for Beginner&amp;#39;s</description>
+    </item>
+    <item>
+      <title>Exploring 🐬the World of Containers</title>
+      <link>http://example.org/blog/exploring-the-world-of-containers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/blog/exploring-the-world-of-containers/</guid>
+      <description>Use Container for deployment
+Hi friends, welcome back to Blogs-with-Achu! In today&amp;rsquo;s fast-paced technological landscape, containers have emerged as a powerful software development and deployment solution. If you&amp;rsquo;re interested in learning containerization, you don&amp;rsquo;t need any specific prerequisites.😁
+In Today&amp;rsquo;s Blog:
+What is Container?🤔
+Why it is so popular?🤔
+Is VM?☠️
+Containerization Technology💻
+Summary🏁
+**What is Container?**🤔
+A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.</description>
+    </item>
+  </channel>
+</rss>

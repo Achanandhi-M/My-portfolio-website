@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Docker🐬 Dreams💭-3 | Achanandhi M</title>
+<meta name="keywords" content="Contanier, Devops, Docker, DockerHub, Linux, Nginx, tech">
+<meta name="description" content="Docker for Begineer Series">
+<meta name="author" content="Achanandhi M">
+<link rel="canonical" href="http://example.org/blog/docker-dreams-3/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://example.org/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://example.org/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://example.org/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://example.org/apple-touch-icon.png">
+<link rel="mask-icon" href="http://example.org/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Docker🐬 Dreams💭-3" />
+<meta property="og:description" content="Docker for Begineer Series" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/blog/docker-dreams-3/" />
+<meta property="og:image" content="http://example.org/blogs/dockerpng.png" /><meta property="article:section" content="blog" />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://example.org/blogs/dockerpng.png" />
+<meta name="twitter:title" content="Docker🐬 Dreams💭-3"/>
+<meta name="twitter:description" content="Docker for Begineer Series"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blogs",
+      "item": "http://example.org/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Docker🐬 Dreams💭-3",
+      "item": "http://example.org/blog/docker-dreams-3/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Docker🐬 Dreams💭-3",
+  "name": "Docker🐬 Dreams💭-3",
+  "description": "Docker for Begineer Series",
+  "keywords": [
+    "Contanier", "Devops", "Docker", "DockerHub", "Linux", "Nginx", "tech"
+  ],
+  "articleBody": "Hi friends🙋‍♂️ welcome back to Blogs-with-Achu, we have started the Docker🐬 Learning series, In my previous Blog⏮️ we saw about web servers and also a practical demonstration of running a web server inside a docker container.\nToday’s Quote:\n“Service to others is the rent you pay for your room here on earth🌎” - Muhammad Ali❤️‍🩹 Today’s Exciting Blog Agenda:\n**what is Dockerfile?**❓\nWhy Dockerfile Matters! 🤔\nLaunch Your Website with Nginx and Dockerfile! ⛵️🚀\nWhat’s Next in our Docker Journey?🌈🚀\nConclusion🏁\n1) What is Dockerfile❓\nAccording to the Docker doc,\nDocker can build🏗️ images automatically by reading the instructions from a Dockerfile. A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image. I think it may sound like complicating let me explain in a simple diagram✍🏻\nDon’t get confused😕 whiling seeing the diagram, it is just a simple illustration we often experience when we visit the hotel. Let’s compare this with Dockerfile creation and Execution. How the user is giving an order to the waiter, so like as the same, the user creates Dockerfile in their system, and how the waiter gives the order to the chef for preparing the food the user is given, same likewise the Dockerfile instructs the Docker to create the image based on the command mentioned by the user, after the chef Finished cooking the waiter serves the food to the user, same like in Docker🐬 world, the Docker Engine builds the container based on the Image built in the previous step.\nRemember the Dockerfile does not contain any file Extension\nLet’s Compare the above example with this example\nI think the above example clearly explains the role of Dockerfile, In the Dockerfile u mention all of your stuff like Dependencies and libraries in the form of Commands. Apart from that, we can include environment variables in Dockerfile.\nIn summary, a Dockerfile is like a recipe that instructs Docker🐬 on how to build a Docker image, which is a self-contained package containing all the necessary ingredients (dependencies) and instructions to run your application in a consistent and portable manner, just like a well-prepared dish you order in a hotel. Dockerfile makes creating and sharing these recipes easy, allowing others to enjoy the same delicious meal (application) in their own containers.\nWhy Dockerfile Matters! 🤔 Dockerfile matters because it defines the steps to create Docker images, ensuring reproducibility, version control, simplified deployment, isolation, and scalability for containerized applications.\nLaunch Your Website with Nginx and Dockerfile! ⛵️🚀 Let’s see a practical demo, we are going to see the same example as we saw in our previous blog, but the difference is that we are not going to manually go to deploy this, we are doing by this creating a very very simple Dockerfile\nFollow the below steps below to do\nmkdir nginx-demo-Blog #create separate Directory cd nginx-demo-Blog vi Dockerfile # Create Separate Dockerfile vi myWebPage.html #Create html file I think the above Dockerfile📁 is very simple because it will not contain that many commands in Dockerfile, Dockerfile contain only Two commands FROM and COPY commands, FROM Command, is used to mention the base image which we are going to use in our later part, and the COPY command is used to COPY the files to a directory inside the container. We will see more commands and complex Dockerfile in a later blog.\nThis is our HTML file [myWebPage.html] or you can use your own Html file please feel to modify\ndocker build -t[tag] docker build -t nginx:alpine . Remember ⚠️to include “.” at the end of the docker build command, When you run the docker build command with the “.” (dot) at the end, it tells Docker to search for the Dockerfile in the current directory. Docker will use all the files and directories in the current directory as the build context\nThe docker build command is used to build our Docker image based on the instructions we mentioned in our Docker file. The output shows the image is built successfully.\nAgain, We need to cover a lot about Image layers, which is one of the important concepts in the Dockerfile concepts, we focus a lot more in the next blog.\ndocker images Use the docker images command to verify the image present in our system.\nWe successfully 🚀💪built our image by ourselves using our own Dockerfile, We need to create a container for our image using this command\ndocker run [options] docker run -d -p 84:80 nginx-webpage nginx-alpine The -p command is used to expose what we saw in our previous blog, I think we need to ask ourselves what these numbers denote 84:80 ?? 84 is the port number of the host side which we enter in the browser along with the Ip address , 80 port number denote the container port\nHow we can make sure that we deployed successfully❓😕\nUse this command\ndocker exec -it nginx-webpage sh The above output shows we deployed in the correct directory\nOur Output Looks like this:\nhttp://yourIpAddress:portNumber/fileName If you got this output 😂😅 Yeah we Successfully deployed our web page into the Nginx web server using Dockerfile, If your creating your own web page make sure that you got correct the output, if not please mention it the in comments section\nWhat’s Next in our Docker Journey?🌈🚀\nIn our next blog, we can deep delve into docker concepts and also we can see some more examples.\nConclusion🏁\nIf you have any doubts, please mention them in the comment section. Let’s keep up the enthusiasm and explore the real power of Docker in our upcoming blog. See you in the next blog. Happy learning and happy reading! 📖\nRegards\nAchanandhi M👦\n",
+  "wordCount" : "959",
+  "inLanguage": "en",
+  "image":"http://example.org/blogs/dockerpng.png","datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Achanandhi M"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://example.org/blog/docker-dreams-3/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Achanandhi M",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://example.org/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://example.org/" accesskey="h" title="Achanandhi M (Alt + H)">Achanandhi M</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://example.org/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/blog" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/projects" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/experience" title="Experience">
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://example.org/">Home</a>&nbsp;»&nbsp;<a href="http://example.org/blog/">Blogs</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Docker🐬 Dreams💭-3
+    </h1>
+    <div class="post-description">
+      Docker for Begineer Series
+    </div>
+    <div class="post-meta">5 min&nbsp;·&nbsp;Achanandhi M
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="eager" src="http://example.org/blogs/dockerpng.png" alt="">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#_service-to-others-is-the-rent-you-pay-for-your-room-here-on-earth_" aria-label="&ldquo;Service to others is the rent you pay for your room here on earth🌎&rdquo;">&ldquo;Service to others is the rent you pay for your room here on earth🌎&rdquo;</a><ul>
+                        
+                <li>
+                    <a href="#--muhammad-ali" aria-label="- Muhammad Ali❤️‍🩹">- Muhammad Ali❤️‍🩹</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>Hi friends🙋‍♂️ welcome back to Blogs-with-Achu, we have started the Docker🐬 Learning series, In my previous Blog⏮️ we saw about <strong><em>web servers and also a practical demonstration of running a web server inside a docker container.</em></strong></p>
+<p><strong>Today&rsquo;s Quote:</strong></p>
+<blockquote>
+<h1 id="_service-to-others-is-the-rent-you-pay-for-your-room-here-on-earth_"><em>&ldquo;Service to others is the rent you pay for your room here on earth🌎&rdquo;</em><a hidden class="anchor" aria-hidden="true" href="#_service-to-others-is-the-rent-you-pay-for-your-room-here-on-earth_">#</a></h1>
+<h2 id="--muhammad-ali"><strong>- Muhammad Ali</strong>❤️‍🩹<a hidden class="anchor" aria-hidden="true" href="#--muhammad-ali">#</a></h2>
+</blockquote>
+<p><strong>Today&rsquo;s Exciting Blog Agenda:</strong></p>
+<ol>
+<li>
+<p>**what is Dockerfile?**❓</p>
+</li>
+<li>
+<p><strong>Why Dockerfile Matters! 🤔</strong></p>
+</li>
+<li>
+<p><strong>Launch Your Website with Nginx and Dockerfile! ⛵️🚀</strong></p>
+</li>
+<li>
+<p><strong>What&rsquo;s Next in our Docker Journey?🌈🚀</strong></p>
+</li>
+<li>
+<p><strong>Conclusion🏁</strong></p>
+</li>
+</ol>
+<p><strong>1) What is Dockerfile</strong>❓</p>
+<p><em>According to the Docker doc,</em></p>
+<p>Docker can build🏗️ images automatically by reading the instructions from a <code>Dockerfile</code>. A <code>Dockerfile</code> is a text document that contains all the commands a user could call on the command line to assemble an image. I think it may sound like complicating let me explain in a simple diagram✍🏻</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/blog-1.jpg" alt=""  />
+</p>
+<p>Don&rsquo;t get confused😕 whiling seeing the diagram, it is just a simple illustration we often experience when we visit the hotel. Let&rsquo;s compare this with Dockerfile creation and Execution. How the user is giving an order to the waiter, so like as the same, the user creates Dockerfile in their system, and how the waiter gives the order to the chef for preparing the food the user is given, same likewise the Dockerfile instructs the Docker to create the image based on the command mentioned by the user, after the chef Finished cooking the waiter serves the food to the user, same like in Docker🐬 world, the Docker Engine builds the container based on the Image built in the previous step.</p>
+<p><em><strong>Remember the Dockerfile does not contain any file Extension</strong></em></p>
+<p>Let&rsquo;s Compare the above example with this example</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/docker-new-1.jpg" alt=""  />
+</p>
+<p>I think the above example clearly explains the role of Dockerfile, In the Dockerfile u mention all of your stuff like Dependencies and libraries in the form of Commands. Apart from that, we can include environment variables in Dockerfile.</p>
+<p>In summary, a Dockerfile is like a recipe that instructs Docker🐬 on how to build a Docker image, which is a self-contained package containing all the necessary ingredients (dependencies) and instructions to run your application in a consistent and portable manner, just like a well-prepared dish you order in a hotel. Dockerfile makes creating and sharing these recipes easy, allowing others to enjoy the same delicious meal (application) in their own containers.</p>
+<ol start="2">
+<li><strong>Why Dockerfile Matters! 🤔</strong></li>
+</ol>
+<p>Dockerfile matters because it defines the steps to create Docker images, ensuring reproducibility, version control, simplified deployment, isolation, and scalability for containerized applications.</p>
+<ol start="3">
+<li><strong>Launch Your Website with Nginx and Dockerfile! ⛵️🚀</strong></li>
+</ol>
+<p>Let&rsquo;s see a practical demo, we are going to see the same example as we saw in our previous blog, but the difference is that we are not going to manually go to deploy this, we are doing by this creating a very very simple Dockerfile</p>
+<p>Follow the below steps below to do</p>
+<pre tabindex="0"><code>mkdir nginx-demo-Blog #create separate Directory
+cd nginx-demo-Blog
+vi Dockerfile # Create Separate Dockerfile
+vi myWebPage.html #Create html file
+</code></pre><p><img loading="lazy" src="/my-demo-portfolio/static/blogs/nginx-1.png" alt=""  />
+</p>
+<p>I think the above Dockerfile📁 is very simple because it will not contain that many commands in Dockerfile, Dockerfile contain only Two commands FROM and COPY commands, FROM Command, is used to mention the base image which we are going to use in our later part, and the COPY command is used to COPY the files to a directory inside the container. We will see more commands and complex Dockerfile in a later blog.</p>
+<p><em>This is our HTML file [myWebPage.html] or you can use your own Html file please feel to modify</em></p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/nginx-2.png" alt=""  />
+</p>
+<pre tabindex="0"><code>docker build -t[tag] &lt;image-name&gt;
+
+docker build -t nginx:alpine .
+</code></pre><p><img loading="lazy" src="/my-demo-portfolio/static/blogs/nginx-3-1.png" alt=""  />
+</p>
+<p>Remember ⚠️to include &ldquo;.&rdquo; at the end of the docker build command, When you run the <code>docker build</code> command with the &ldquo;<code>.</code>&rdquo; (dot) at the end, it tells Docker to search for the Dockerfile in the current directory. Docker will use all the files and directories in the current directory as the build context</p>
+<p>The docker build command is used to build our Docker image based on the instructions we mentioned in our Docker file. The output shows the image is built successfully.</p>
+<p>Again, We need to cover a lot about Image layers, which is one of the important concepts in the Dockerfile concepts, we focus a lot more in the next blog.</p>
+<pre tabindex="0"><code>docker images
+</code></pre><p>Use the docker images command to verify the image present in our system.</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/nginx-5-1.png" alt=""  />
+</p>
+<p>We successfully 🚀💪built our image by ourselves using our own Dockerfile, We need to create a container for our image using this command</p>
+<pre tabindex="0"><code>docker run [options] &lt;container-name&gt; &lt;image-name&gt;
+
+docker run -d -p 84:80 nginx-webpage nginx-alpine
+</code></pre><p><img loading="lazy" src="/my-demo-portfolio/static/blogs/nginx-6.png" alt=""  />
+</p>
+<p>The -p command is used to expose what we saw in our previous blog, I think we need to ask ourselves what these numbers denote 84:80 ?? 84 is the port number of the host side which we enter in the browser along with the Ip address , 80 port number denote the container port</p>
+<p><strong>How we can make sure that we deployed successfully</strong>❓😕</p>
+<p>Use this command</p>
+<pre tabindex="0"><code>docker exec -it nginx-webpage sh
+</code></pre><p><img loading="lazy" src="/my-demo-portfolio/static/blogs/nginx-7.jpg" alt=""  />
+</p>
+<p>The above output shows we deployed in the correct directory</p>
+<p><strong><em>Our Output Looks like this:</em></strong></p>
+<pre tabindex="0"><code>http://yourIpAddress:portNumber/fileName
+</code></pre><p><img loading="lazy" src="/my-demo-portfolio/static/blogs/output-1.png" alt=""  />
+</p>
+<p>If you got this output 😂😅 Yeah we Successfully deployed our web page into the Nginx web server using Dockerfile, If your creating your own web page make sure that you got correct the output, if not please mention it the in comments section</p>
+<p><strong>What&rsquo;s Next in our Docker Journey?🌈🚀</strong></p>
+<p>In our next blog, we can deep delve into docker concepts and also we can see some more examples.</p>
+<p><strong>Conclusion</strong>🏁</p>
+<p>If you have any doubts, please mention them in the comment section. Let&rsquo;s keep up the enthusiasm and explore the real power of Docker in our upcoming blog. See you in the next blog. Happy learning and happy reading! 📖</p>
+<p>Regards</p>
+<p>Achanandhi M👦</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://example.org/tags/contanier/">Contanier</a></li>
+      <li><a href="http://example.org/tags/devops/">DevOps</a></li>
+      <li><a href="http://example.org/tags/docker/">Docker</a></li>
+      <li><a href="http://example.org/tags/dockerhub/">DockerHub</a></li>
+      <li><a href="http://example.org/tags/linux/">Linux</a></li>
+      <li><a href="http://example.org/tags/nginx/">Nginx</a></li>
+      <li><a href="http://example.org/tags/tech/">tech</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://example.org/blog/introduction-to-localstack/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Introduction to LocalStack</span>
+  </a>
+  <a class="next" href="http://example.org/blog/docker-dreams-2/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Docker🐬 Dreams💭-2</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span> Made ❤️ with <a href="http://example.org/">Achanandhi M</a></span>
+    <span>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

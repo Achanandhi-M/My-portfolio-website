@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Docker🐬 Dreams💭-0 | Achanandhi M</title>
+<meta name="keywords" content="Contanier, Devops, Docker, DockerHub, tech">
+<meta name="description" content="Docker for Begineer Series">
+<meta name="author" content="Achanandhi M">
+<link rel="canonical" href="http://example.org/blog/docker-dreams-0/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://example.org/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://example.org/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://example.org/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://example.org/apple-touch-icon.png">
+<link rel="mask-icon" href="http://example.org/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Docker🐬 Dreams💭-0" />
+<meta property="og:description" content="Docker for Begineer Series" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/blog/docker-dreams-0/" />
+<meta property="og:image" content="http://example.org/blogs/dockerpng.png" /><meta property="article:section" content="blog" />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://example.org/blogs/dockerpng.png" />
+<meta name="twitter:title" content="Docker🐬 Dreams💭-0"/>
+<meta name="twitter:description" content="Docker for Begineer Series"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blogs",
+      "item": "http://example.org/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Docker🐬 Dreams💭-0",
+      "item": "http://example.org/blog/docker-dreams-0/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Docker🐬 Dreams💭-0",
+  "name": "Docker🐬 Dreams💭-0",
+  "description": "Docker for Begineer Series",
+  "keywords": [
+    "Contanier", "Devops", "Docker", "DockerHub", "tech"
+  ],
+  "articleBody": "Hi friends, welcome back to Blogs-with-Achu, we have started the Docker🐬 Learning series, In my previous Blog⏮️ we saw Introduction to Docker and containers, Today in this blog we are Going to see Docker installation and working with some basic Docker commands.\nToday blog’s is all about :\nDocker Installation🏠\nDocker Desktop💻\nAlternative method-Sandbox☁️\nCheck Docker is Installed🫡\nBasic Docker Commands💥\nWhat’s Next⏭️\nQuiz🧾\nConclusion.🏁\nDocker Installation🏠..\nFor working with docker, we need to first install docker in our local system💻. The installation process will defer based on the operating system.\nStep 1: Use this Link docker.io for installation\nStep 2: After that, u will land in the Docker world\nStep 3: Install Docker based on your operating system, if you’re using Linux install based on your Linux distributions\nI think the Installation process is easy, I hope you have done that. If are facing any issues please mention them in the comment section.\n**Docker Desktop💻\n**Docker Desktop is a tool designed to simplify the development and deployment of containerized applications. It provides an easy-to-use graphical interface for managing Docker containers and images on your local machine, regardless of the operating system you’re using.\n**Alternative method-Sandbox**☁️\nThere is another alternative method, you can run docker without installing it in your local system, yes you heard that right. Yeah, you can run docker in the cloud (that’s like in a sandbox environment). They are many websites are providing a sandbox environment for absolutely free, you can use it.\nUse this link for Docker’s official sandbox Environment\nThere are many websites providing sandbox environments you can also try the codesandbox.io website\n**Problem with Sandbox Environment**😵‍💫\nThere are Several problems are there while working with a sandbox environment\nResource Limitations: Docker imposes resource limits on containers to ensure fair sharing of resources with the host system and other containers. However, these limits can sometimes restrict the sandbox environment’s capabilities, such as memory, CPU, or network access.\nContainer Lifecycle and Persistence: By default, Docker containers are ephemeral, meaning any changes made inside the container are lost when it’s stopped or restarted. This can be problematic when working with a sandbox environment that requires persistence.\nDebugging and Troubleshooting: Debugging issues within a Docker sandbox environment can be more challenging due to the isolation.\nThe sandbox environment is best suitable for testing purposes, it is not suitable for individuals who want to play hard with the docker\nCheck Docker is Installed🫡\nIf you installed docker locally on your system, you are already one foot ahead of learning docker, there are several way use can verify whether you installed docker in your local machine. Use this command to verify :\ndocker --version I am running docker inside Ubuntu, and it shows the current version of docker installed on your local machine.\nBasic Docker Commands💥\nThere are some basic docker commands you can use frequently when working with docker\n1. docker images command will display all images in our local system\ndocker images The lists of docker images in my local system.\n2. docker container ps -a command will display all container both excited and running.\ndocker container ps -a 3. docker container ps command will display the container which are running\ndocker ps In the above image, there is no container running in my local system, so it shows nothing.\nWhat’s Next⏭️\nIn the next blog, we deep dive into the docker images concept, how to pull images from the docker hub, and how to work with images and containers with examples.\nQuiz🧾\nConclusion🏁\nIf you have any doubts, please mention them in the comment section. Let’s keep up the enthusiasm and explore the real power of Docker in our upcoming blog. See you in the next blog. Happy learning and happy reading! 📖\nRegards\nAchanandhi M👦\n",
+  "wordCount" : "630",
+  "inLanguage": "en",
+  "image":"http://example.org/blogs/dockerpng.png","datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Achanandhi M"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://example.org/blog/docker-dreams-0/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Achanandhi M",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://example.org/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://example.org/" accesskey="h" title="Achanandhi M (Alt + H)">Achanandhi M</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://example.org/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/blog" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/projects" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/experience" title="Experience">
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://example.org/">Home</a>&nbsp;»&nbsp;<a href="http://example.org/blog/">Blogs</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Docker🐬 Dreams💭-0
+    </h1>
+    <div class="post-description">
+      Docker for Begineer Series
+    </div>
+    <div class="post-meta">3 min&nbsp;·&nbsp;Achanandhi M
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="eager" src="http://example.org/blogs/dockerpng.png" alt="">
+        
+</figure>
+
+  <div class="post-content"><p>Hi friends, welcome back to Blogs-with-Achu, we have started the Docker🐬 Learning series, In my previous Blog⏮️ we saw Introduction to Docker and containers, Today in this blog we are Going to see Docker installation and working with some basic Docker commands.</p>
+<p><strong>Today blog&rsquo;s is all about :</strong></p>
+<ul>
+<li>
+<p>Docker Installation🏠</p>
+</li>
+<li>
+<p>Docker Desktop💻</p>
+</li>
+<li>
+<p>Alternative method-Sandbox☁️</p>
+</li>
+<li>
+<p>Check Docker is Installed🫡</p>
+</li>
+<li>
+<p>Basic Docker Commands💥</p>
+</li>
+<li>
+<p>What&rsquo;s Next⏭️</p>
+</li>
+<li>
+<p>Quiz🧾</p>
+</li>
+<li>
+<p>Conclusion.🏁</p>
+</li>
+</ul>
+<p><strong>Docker Installation</strong>🏠..</p>
+<p>For working with docker, we need to first install docker in our local system💻. The installation process will defer based on the operating system.</p>
+<p>Step 1: Use this Link <a href="https://www.docker.com/">docker.io</a> for installation</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/docker-06.png" alt=""  />
+</p>
+<p>Step 2: After that, u will land in the Docker world</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/docker-5.png" alt=""  />
+</p>
+<p>Step 3: Install Docker based on your operating system, if you&rsquo;re using Linux install based on your Linux distributions</p>
+<p>I think the Installation process is easy, I hope you have done that. If are facing any issues please mention them in the comment section.</p>
+<p>**Docker Desktop💻<br>
+**Docker Desktop is a tool designed to simplify the development and deployment of containerized applications. It provides an easy-to-use graphical interface for managing Docker containers and images on your local machine, regardless of the operating system you&rsquo;re using.</p>
+<p>**<em>Alternative method-Sandbox</em>**☁️</p>
+<p>There is another alternative method, you can run docker without installing it in your local system, yes you heard that right. Yeah, you can run docker in the cloud (that&rsquo;s like in a sandbox environment). They are many websites are providing a sandbox environment for absolutely free, you can use it.</p>
+<p>Use this link for <a href="https://www.docker.com/play-with-docker/">Docker&rsquo;s official sandbox Environment</a></p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/docker-07.png" alt=""  />
+</p>
+<p>There are many websites providing sandbox environments you can also try the <a href="https://codesandbox.io/docs/tutorial/getting-started-with-docker">codesandbox.io website</a></p>
+<p>**<em>Problem with Sandbox Environment</em>**😵‍💫</p>
+<p>There are Several problems are there while working with a sandbox environment</p>
+<ol>
+<li>
+<p><strong><em>Resource Limitations</em></strong>: Docker imposes resource limits on containers to ensure fair sharing of resources with the host system and other containers. However, these limits can sometimes restrict the sandbox environment&rsquo;s capabilities, such as memory, CPU, or network access.</p>
+</li>
+<li>
+<p><strong><em>Container Lifecycle and Persistence</em></strong>: By default, Docker containers are ephemeral, meaning any changes made inside the container are lost when it&rsquo;s stopped or restarted. This can be problematic when working with a sandbox environment that requires persistence.</p>
+</li>
+<li>
+<p><strong><em>Debugging and Troubleshooting</em></strong>: Debugging issues within a Docker sandbox environment can be more challenging due to the isolation.</p>
+</li>
+</ol>
+<p>The sandbox environment is best suitable for testing purposes, it is not suitable for individuals who want to play hard with the docker</p>
+<p><strong>Check Docker is Installed</strong>🫡</p>
+<p>If you installed docker locally on your system, you are already one foot ahead of learning docker, there are several way use can verify whether you installed docker in your local machine. Use this command to verify :</p>
+<pre tabindex="0"><code>docker --version
+</code></pre><p><img loading="lazy" src="/my-demo-portfolio/static/blogs/docker-image.png" alt=""  />
+</p>
+<p>I am running docker inside Ubuntu, and it shows the current version of docker installed on your local machine.</p>
+<p><strong>Basic Docker Commands</strong>💥</p>
+<p>There are some basic docker commands you can use frequently when working with docker</p>
+<p>1. docker images command will display all images in our local system</p>
+<pre tabindex="0"><code>docker images
+</code></pre><p>The lists of docker images in my local system.</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/docker1.jpg" alt=""  />
+</p>
+<p>2. docker container ps -a command will display all container both excited and running.</p>
+<pre tabindex="0"><code>docker container ps -a
+</code></pre><p><img loading="lazy" src="/my-demo-portfolio/static/blogs/docker-4.jpg" alt=""  />
+</p>
+<p>3. docker container ps command will display the container which are running</p>
+<pre tabindex="0"><code>docker ps
+</code></pre><p><img loading="lazy" src="/my-demo-portfolio/static/blogs/docker-3-1.jpg" alt=""  />
+</p>
+<p>In the above image, there is no container running in my local system, so it shows nothing.</p>
+<p><strong>What&rsquo;s Next</strong>⏭️</p>
+<p>In the next blog, we deep dive into the docker images concept, how to pull images from the docker hub, and how to work with images and containers with examples.</p>
+<p><strong>Quiz</strong>🧾</p>
+<p><strong>Conclusion</strong>🏁</p>
+<p>If you have any doubts, please mention them in the comment section. Let&rsquo;s keep up the enthusiasm and explore the real power of Docker in our upcoming blog. See you in the next blog. Happy learning and happy reading! 📖</p>
+<p>Regards</p>
+<p>Achanandhi M👦</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://example.org/tags/contanier/">Contanier</a></li>
+      <li><a href="http://example.org/tags/devops/">DevOps</a></li>
+      <li><a href="http://example.org/tags/docker/">Docker</a></li>
+      <li><a href="http://example.org/tags/dockerhub/">DockerHub</a></li>
+      <li><a href="http://example.org/tags/tech/">tech</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://example.org/blog/docker-dreams-1/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Docker🐬 Dreams💭-1</span>
+  </a>
+  <a class="next" href="http://example.org/blog/docker-dreams/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Docker🐬 Dreams💭</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span> Made ❤️ with <a href="http://example.org/">Achanandhi M</a></span>
+    <span>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

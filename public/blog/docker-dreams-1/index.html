@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Docker🐬 Dreams💭-1 | Achanandhi M</title>
+<meta name="keywords" content="Contanier, Devops, Docker, DockerHub, tech">
+<meta name="description" content="Docker for Begineer Series">
+<meta name="author" content="Achanandhi M">
+<link rel="canonical" href="http://example.org/blog/docker-dreams-1/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://example.org/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://example.org/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://example.org/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://example.org/apple-touch-icon.png">
+<link rel="mask-icon" href="http://example.org/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Docker🐬 Dreams💭-1" />
+<meta property="og:description" content="Docker for Begineer Series" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/blog/docker-dreams-1/" />
+<meta property="og:image" content="http://example.org/blogs/dockerpng.png" /><meta property="article:section" content="blog" />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://example.org/blogs/dockerpng.png" />
+<meta name="twitter:title" content="Docker🐬 Dreams💭-1"/>
+<meta name="twitter:description" content="Docker for Begineer Series"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blogs",
+      "item": "http://example.org/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Docker🐬 Dreams💭-1",
+      "item": "http://example.org/blog/docker-dreams-1/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Docker🐬 Dreams💭-1",
+  "name": "Docker🐬 Dreams💭-1",
+  "description": "Docker for Begineer Series",
+  "keywords": [
+    "Contanier", "Devops", "Docker", "DockerHub", "tech"
+  ],
+  "articleBody": "Hi friends🙋‍♂️ welcome back to Blogs-with-Achu, we have started the Docker🐬 Learning series, In my previous Blog⏮️ we saw about how to install docker on our local system and we saw some basic docker commands.\nToday’s blog agenda:\nUnderstanding Docker Images and Containers😎\nUnleashing the Power of Docker💪\nDiscover Dockerhub: An Abundance of Useful Resources💫\nWorking with Docker Images and Containers: Real-Life Examples⚒️\nWhat’s Next in our Docker Journey?⏭️\nConclusion🏁\nUnderstanding Docker Images and Containers😎 Before working with Docker🐬 it is crucial to understand the concepts of images and containers because they are essential in Docker. In my previous blog⏮️ we discussed containers, which are lightweight and run in an isolated environment. However, you may be wondering**, What are images and why do we need them to create Docker containers?** These questions have arisen as I learn about Docker.\nLet’s see the answer with the simple analogy of ordering🍽️ and cooking🍳 food, let’s relate it to Docker🐬\nImage: An image is like a menu in a restaurant🏨. It lists various dishes🍪 and provides details about the ingredients, cooking instructions, and presentation. Just like you choose a dish from the menu, in Docker, you select an image that represents a specific application or environment you want to run.\nContainer: A container is like a chef🧑‍🍳 who receives the order and cooks the food according to the selected dish from the menu. When you order a dish, the chef creates a separate cooking area and prepares the dish with the specified ingredients and cooking instructions. Similarly, when you create a container from an image, Docker sets up an isolated runtime environment where the application or processes defined in the image run🏃‍♂️.\nHere’s how the process works with Docker:\nImagine you’re in a restaurant that offers a wide range of dishes (images) on its menu.\nYou browse the menu and select a specific dish (image) that you want to order. For example, you choose a “Web Server” dish from the menu, which represents an image with all the necessary components to run a web server.\nYou place your order with the waiter, who acts as Docker in this analogy. You tell Docker to create a container based on the “Web Server” image.\nDocker takes the “Web Server” image (recipe) and sets up a separate cooking area, which is an isolated runtime environment (container).\nInside the container, Docker follows the instructions provided by the image and sets up the web server, installs the required software, and configures the necessary settings.\nThe container is now running, and your web server is ready to serve requests. Just like the chef cooking your food, the container is executing the processes defined in the image.\nThe container remains separate from other containers and the underlying host system, ensuring isolation and security.\nIf you need to run multiple instances of the web server, you can order multiple containers based on the same “Web Server” image, just like requesting multiple servings of the same dish .\nIn this analogy, Docker acts as the intermediary between you (the customer) and the chef (the container). It takes your order (image) and creates a separate cooking area (container) where the specified dish (application or processes) is prepared.\nIn Docker, containers are created from images. You cannot create a container without an image. An image in Docker serves as a template or blueprint that contains all the necessary instructions, dependencies, and files required to create and run a container. The image defines the environment and the processes that will run inside the container.\nSo, in summary, an image is a prerequisite for creating a container. The image provides the necessary instructions and dependencies, while the container is the actual running instance that is created based on the image.\n2. Unleashing the Power of Docker\nYou can use Docker for anything, For example, you can find Docker images for popular databases like MySQL, PostgreSQL, and MongoDB. There are also images for web servers like Apache HTTP Server and Nginx, programming languages like Python, Java, and Node.js, development frameworks like Ruby on Rails and Django, and many more.\nIn addition to specific software components, Docker images can also include custom configurations, scripts, or additional dependencies needed for your application to run properly.\n3. Discover Dockerhub: An Abundance of Useful Resources💫\nWe already know that images are important for creating a Docker container, which is useful for establishing an isolated environment. But where on earth are those images present? They reside in Dockerhub, the official website of Docker, where millions of Docker images are available. You can pull and push your Docker images to Dockerhub so others can make use of them.\nUse this link to visit the magical world of Docker click here\nThe above image shows the home page of the Docker hub, in the top right-hand side it shows my name because I created an account in the docker hub, In the Docker hub u can also host our own docker images and also there is the option of creating private repositories.\nThe above picture shows the images present in the Dockerhub, u can search the image based on your requirements. U have the option to filter out based on your operating system and Architecture.\n4. Working with Docker Images and Containers: Real-Life Examples⚒️\nAfter identifying the desired image for your application, you can easily use or pull that image from Docker Hub. Don’t worry, there is a command specifically for this purpose:\ndocker pull You can use this command to pull the Docker image from Dockerhub\nLets’s see with an example - Hello world🌏 in Docker\nGet ready for hand on open up your terminal and type these commands in your command line\ndocker run hello-world The hello-world is a pre-build image in the Docker hub, which displays hello world in the terminal. Wait, earlier I said if you want to pull any image you can use the docker pull command, but now I have not used it the reason for that is if you use the docker run command, It will check the image locally, if the image is not present in locally, it will automatically pull the image from docker hub and it creates the container for running, it is the real power of using docker run command.\nThe above picture shows the output, if you got the same output as me, congratulations🎉 we’ve done it. Don’t forget to use sudo before docker commands. I am using the(Ubuntu) Linux operating system, so I am using sudo the reason for that is using sudo with the docker commands is required when running Docker as a non-root user, as it allows the command to be executed with administrative privileges. Docker requires elevated permissions to access system resources and manage containers. Running Docker commands with sudo ensures the necessary privileges are granted, enabling successful execution of Docker operations.\nThe output shows the container is not running. By default, a Docker container will stop once the main process running inside the container completes its execution. This means that when the process specified in the Docker image’s entry point or command finishes running, the container will automatically stop.\ndocker run -d However, you can override this default behavior by specifying additional options or configurations when running the container, such as using the -d flag to run the container in detached mode and keep it running in the background.\n**What’s Next in our Docker Journey?**⏭️\nCongratulations🎉 we successfully 💥deployed and run our first container, don’t lose the spark, there is much more to explore in upcoming blogs. In our next blog, we will see the different types of flags used in docker commands and some examples, but trust me you really like the example.\nConclusion🏁\nIf you have any doubts, please mention them in the comment section. Let’s keep up the enthusiasm and explore the real power of Docker in our upcoming blog. See you in the next blog. Happy learning and happy reading! 📖\nRegards\nAchanandhi M👦\n",
+  "wordCount" : "1334",
+  "inLanguage": "en",
+  "image":"http://example.org/blogs/dockerpng.png","datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Achanandhi M"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://example.org/blog/docker-dreams-1/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Achanandhi M",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://example.org/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://example.org/" accesskey="h" title="Achanandhi M (Alt + H)">Achanandhi M</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://example.org/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/blog" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/projects" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/experience" title="Experience">
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://example.org/">Home</a>&nbsp;»&nbsp;<a href="http://example.org/blog/">Blogs</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Docker🐬 Dreams💭-1
+    </h1>
+    <div class="post-description">
+      Docker for Begineer Series
+    </div>
+    <div class="post-meta">7 min&nbsp;·&nbsp;Achanandhi M
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="eager" src="http://example.org/blogs/dockerpng.png" alt="">
+        
+</figure>
+
+  <div class="post-content"><p>Hi friends🙋‍♂️ welcome back to Blogs-with-Achu, we have started the Docker🐬 Learning series, In my previous Blog⏮️ we saw about <em><strong>how to install docker on our local system and we saw some basic docker commands.</strong></em></p>
+<p><strong>Today&rsquo;s blog agenda:</strong></p>
+<ol>
+<li>
+<p>Understanding Docker Images and Containers😎</p>
+</li>
+<li>
+<p>Unleashing the Power of Docker💪</p>
+</li>
+<li>
+<p>Discover Dockerhub: An Abundance of Useful Resources💫</p>
+</li>
+<li>
+<p>Working with Docker Images and Containers: Real-Life Examples⚒️</p>
+</li>
+<li>
+<p>What&rsquo;s Next in our Docker Journey?⏭️</p>
+</li>
+<li>
+<p>Conclusion🏁</p>
+</li>
+</ol>
+<ol>
+<li><strong>Understanding Docker Images and Containers</strong>😎</li>
+</ol>
+<p>Before working with Docker🐬 it is crucial to understand the concepts of images and containers because they are essential in Docker. In my previous blog⏮️ we discussed containers, which are lightweight and run in an isolated environment. However, you may be wondering**<em>, What are images and why do we need them to create Docker containers?</em>** These questions have arisen as I learn about Docker.</p>
+<p>Let&rsquo;s see the answer with the simple analogy of ordering🍽️ and cooking🍳 food, let&rsquo;s relate it to Docker🐬</p>
+<ol>
+<li>
+<p><strong>Image</strong>: An image is like a menu in a restaurant🏨. It lists various dishes🍪 and provides details about the ingredients, cooking instructions, and presentation. Just like you choose a dish from the menu, in Docker, you select an image that represents a specific application or environment you want to run.</p>
+</li>
+<li>
+<p><strong>Container</strong>: A container is like a chef🧑‍🍳 who receives the order and cooks the food according to the selected dish from the menu. When you order a dish, the chef creates a separate cooking area and prepares the dish with the specified ingredients and cooking instructions. Similarly, when you create a container from an image, Docker sets up an isolated runtime environment where the application or processes defined in the image run🏃‍♂️.</p>
+</li>
+</ol>
+<p><strong>Here&rsquo;s how the process works with Docker:</strong></p>
+<ol>
+<li>
+<p>Imagine you&rsquo;re in a restaurant that offers a wide range of dishes (images) on its menu.</p>
+</li>
+<li>
+<p>You browse the menu and select a specific dish (image) that you want to order. For example, you choose a <strong><em>&ldquo;Web Server&rdquo;</em></strong> dish from the menu, which represents an image with all the necessary components to run a web server.</p>
+</li>
+<li>
+<p>You place your order with the waiter, who acts as <strong><em>Docker in this analogy</em></strong>. You tell Docker to create a container based on the &ldquo;Web Server&rdquo; image.</p>
+</li>
+<li>
+<p>Docker takes the <strong><em>&ldquo;Web Server&rdquo; image (recipe)</em></strong> and sets up a separate cooking area, which is an isolated runtime environment (container).</p>
+</li>
+<li>
+<p>Inside the container, Docker follows the instructions provided by the image and sets up the web server, installs the required software, and configures the necessary settings.</p>
+</li>
+<li>
+<p>The container is now running, and your web server is ready to serve requests. Just like the chef cooking your food, the container is executing the processes defined in the image.</p>
+</li>
+<li>
+<p>The container remains separate from other containers and the underlying host system, ensuring isolation and security.</p>
+</li>
+<li>
+<p>If you need to run multiple instances of the web server, you can order multiple containers based on the same &ldquo;Web Server&rdquo; image, just like requesting multiple servings of the same dish .</p>
+</li>
+</ol>
+<p><strong><em>In this analogy, Docker acts as the intermediary between you (the customer) and the chef (the container). It takes your order (image) and creates a separate cooking area (container) where the specified dish (application or processes) is prepared.</em></strong></p>
+<p>In Docker, containers are created from images. You cannot create a container without an image. An image in Docker serves as a template or blueprint that contains all the necessary instructions, dependencies, and files required to create and run a container. The image defines the environment and the processes that will run inside the container.</p>
+<p><strong>So, in summary, an image is a prerequisite for creating a container. The image provides the necessary instructions and dependencies, while the container is the actual running instance that is created based on the image.</strong></p>
+<p>2. <strong>Unleashing the Power of Docker</strong></p>
+<p>You can use Docker for anything, For example, you can find Docker images for popular databases like MySQL, PostgreSQL, and MongoDB. There are also images for web servers like Apache HTTP Server and Nginx, programming languages like Python, Java, and Node.js, development frameworks like Ruby on Rails and Django, and many more.</p>
+<p>In addition to specific software components, Docker images can also include custom configurations, scripts, or additional dependencies needed for your application to run properly.</p>
+<p>3. <strong>Discover Dockerhub: An Abundance of Useful Resources</strong>💫</p>
+<p>We already know that images are important for creating a Docker container, which is useful for establishing an isolated environment. But where on earth are those images present? They reside in Dockerhub, the official website of Docker, where millions of Docker images are available. You can pull and push your Docker images to Dockerhub so others can make use of them.</p>
+<p>Use this link to visit the magical world of Docker <a href="https://hub.docker.com/">click here</a></p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/dockerhub-01.png" alt=""  />
+</p>
+<p>The above image shows the home page of the Docker hub, in the top right-hand side it shows my name because I created an account in the docker hub, In the Docker hub u can also host our own docker images and also there is the option of creating private repositories.</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/dockerhub-02.png" alt=""  />
+</p>
+<p>The above picture shows the images present in the Dockerhub, u can search the image based on your requirements. U have the option to filter out based on your operating system and Architecture.</p>
+<p>4. <strong>Working with Docker Images and Containers: Real-Life Examples</strong>⚒️</p>
+<p>After identifying the desired image for your application, you can easily use or pull that image from Docker Hub. Don&rsquo;t worry, there is a command specifically for this purpose:</p>
+<pre tabindex="0"><code>docker pull &lt;image name&gt;
+</code></pre><p>You can use this command to pull the Docker image from Dockerhub</p>
+<p><strong>Lets&rsquo;s see with an example - Hello world🌏 in Docker</strong></p>
+<p>Get ready for hand on open up your terminal and type these commands in your command line</p>
+<pre tabindex="0"><code>docker run hello-world
+</code></pre><p>The hello-world is a pre-build image in the Docker hub, which displays hello world in the terminal. Wait, earlier I said if you want to pull any image you can use the <strong>docker pull command</strong>, but now I have not used it the reason for that is if you use the docker run command, It will check the image locally, if the image is not present in locally, it will automatically pull the image from docker hub and it creates the container for running, it is the real power of using docker run command.</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/docker-exec-2.png" alt=""  />
+</p>
+<p>The above picture shows the output, if you got the same output as me, congratulations🎉 we&rsquo;ve done it. Don&rsquo;t forget to use sudo before docker commands. I am using the(Ubuntu) Linux operating system, so I am using sudo the reason for that is using <code>sudo</code> with the <code>docker</code> commands is required when running Docker as a non-root user, as it allows the command to be executed with administrative privileges. Docker requires elevated permissions to access system resources and manage containers. Running Docker commands with <code>sudo</code> ensures the necessary privileges are granted, enabling successful execution of Docker operations.</p>
+<p><img loading="lazy" src="/my-demo-portfolio/static/blogs/docker-ex1-1.png" alt=""  />
+</p>
+<p>The output shows the container is not running. By default, a Docker container will stop once the main process running inside the container completes its execution. This means that when the process specified in the Docker image&rsquo;s entry point or command finishes running, the container will automatically stop.</p>
+<pre tabindex="0"><code>docker run -d &lt;image_name&gt;
+</code></pre><p>However, you can override this default behavior by specifying additional options or configurations when running the container, such as using the <code>-d</code> flag to run the container in detached mode and keep it running in the background.</p>
+<p>**What&rsquo;s Next in our Docker Journey?**⏭️</p>
+<p>Congratulations🎉 we successfully 💥deployed and run our first container, don&rsquo;t lose the spark, there is much more to explore in upcoming blogs. In our next blog, we will see the different types of flags used in docker commands and some examples, but trust me you really like the example.</p>
+<p><strong>Conclusion</strong>🏁</p>
+<p>If you have any doubts, please mention them in the comment section. Let&rsquo;s keep up the enthusiasm and explore the real power of Docker in our upcoming blog. See you in the next blog. Happy learning and happy reading! 📖</p>
+<p>Regards</p>
+<p>Achanandhi M👦</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://example.org/tags/contanier/">Contanier</a></li>
+      <li><a href="http://example.org/tags/devops/">DevOps</a></li>
+      <li><a href="http://example.org/tags/docker/">Docker</a></li>
+      <li><a href="http://example.org/tags/dockerhub/">DockerHub</a></li>
+      <li><a href="http://example.org/tags/tech/">tech</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://example.org/blog/docker-dreams-2/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Docker🐬 Dreams💭-2</span>
+  </a>
+  <a class="next" href="http://example.org/blog/docker-dreams-0/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Docker🐬 Dreams💭-0</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span> Made ❤️ with <a href="http://example.org/">Achanandhi M</a></span>
+    <span>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
