@@ -7,11 +7,16 @@ tags: ["Javascript", "Devops","WebApplication","Docker","Git","Github","Minikube
 showToc: false
 weight: 205
 cover:
-    image: "https://github.com/Achanandhi-M/Static-website-in-K8s.git"
----
-
-
+    image: "/blogs/k8s.png"
+---    
+    
+    
+  
 # Static-website-in-K8s
+
+
+### 🔗 [GitHub]("https://github.com/Achanandhi-M/Static-website-in-K8s.git")
+
 Deploying our custom website inside k8s using k8s object "deployment" and "service" 
 
 I created my own docker image

@@ -7,7 +7,7 @@ tags: ["python", "Devops","WebApplication","Docker","Git","Gitlab"]
 showToc: false
 weight: 203
 cover:
-    image: "https://gitlab.com/achanandhi.m/python-todo-application.git"
+    image: "/blogs/python-banner.jpg"
 ---
 
 
@@ -15,6 +15,7 @@ cover:
 # Python-todo-application
 
 
+### 🔗 [GitHub]("https://gitlab.com/achanandhi.m/python-todo-application.git")
 
 ## Getting started
 

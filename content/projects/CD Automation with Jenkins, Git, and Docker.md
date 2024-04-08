@@ -7,10 +7,13 @@ tags: ["Javascript", "Devops","WebApplication","Jenkins","AWS","Docker","Git","G
 showToc: false
 weight: 201
 cover:
-    image: "https://github.com/Achanandhi-M/Web-Application-project/assets/110651321/f283f467-835b-4f23-b056-20089939aa37"
+    image: "/blogs/aws-project-01.png"
 ---
 
 This project demonstrates how to automate the deployment pipeline of a web application using Jenkins, Git, and Docker. The final Docker image is uploaded to an Amazon EC2 instance for deployment.
+
+### 🔗 [GitHub]("https://github.com/Achanandhi-M/Web-Application-project.git")
+
 
 ## Table of Contents
 - [Overview](#overview)

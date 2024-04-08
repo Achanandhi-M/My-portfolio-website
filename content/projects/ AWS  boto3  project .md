@@ -1,5 +1,5 @@
 ---
-title: "AWS  BOTO3 project"
+title: "AWS  boto3 project"
 description: "Talking with AWS Through python code"
 dateString:   December 2024
 draft: false
@@ -7,14 +7,16 @@ tags: ["python", "Devops","WebApplication","Docker","Git","Github","boto3","aws"
 showToc: false
 weight: 204
 cover:
-    image: "https://github.com/Achanandhi-M/aws-boto3.git"
+    image: "/blogs/boto3.png"
 ---
 
 
 
 
 
-# AWS  BOTO3 Repository
+# AWS  boto3 Repository
+
+### 🔗 [GitHub]("https://github.com/Achanandhi-M/aws-boto3.git")
 
 Welcome to the AWS Repository! This repository is designed to help you work with Amazon Web Services (AWS) and leverage its powerful cloud computing services.
 
