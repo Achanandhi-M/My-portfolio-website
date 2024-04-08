@@ -2,107 +2,107 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>tech on Achanandhi M</title>
-    <link>http://example.org/tags/tech/</link>
+    <link>https://mellow-biscuit-c19821.netlify.app/tags/tech/</link>
     <description>Recent content in tech on Achanandhi M</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="http://example.org/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mellow-biscuit-c19821.netlify.app/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Amazon Q Rocks re:Invent 2023!🚀</title>
-      <link>http://example.org/blog/reinvent/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/reinvent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/reinvent/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/reinvent/</guid>
       <description>Exciting news and an announcement from AWS re:Invent 2023.🔥</description>
     </item>
     <item>
       <title>AWS for Newbies-01🦋</title>
-      <link>http://example.org/blog/aws-for-newbies-01/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/aws-for-newbies-01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/aws-for-newbies-01/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/aws-for-newbies-01/</guid>
       <description>How I passed the AWS Developer - Associate Certification Exam (DVA-C02)</description>
     </item>
     <item>
       <title>AWS for Newbies🦋</title>
-      <link>http://example.org/blog/aws-for-newbies/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/aws-for-newbies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/aws-for-newbies/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/aws-for-newbies/</guid>
       <description>Getting Started with AWS</description>
     </item>
     <item>
       <title>Docker🐬 Dreams💭-4</title>
-      <link>http://example.org/blog/docker-dreams-4/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/docker-dreams-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/docker-dreams-4/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/docker-dreams-4/</guid>
       <description>Docker for Begineer Series</description>
     </item>
     <item>
       <title>ChatGPT in your Local Machine</title>
-      <link>http://example.org/blog/chatgpt-in-your-local-machine/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/chatgpt-in-your-local-machine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/chatgpt-in-your-local-machine/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/chatgpt-in-your-local-machine/</guid>
       <description>Just Play with ChatGpt API</description>
     </item>
     <item>
       <title>Getting Started With LocalStack</title>
-      <link>http://example.org/blog/getting-started-with-localstack/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/getting-started-with-localstack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/getting-started-with-localstack/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/getting-started-with-localstack/</guid>
       <description>LocalStack is a tool that runs on your local machine that emulates AWS API.</description>
     </item>
     <item>
       <title>Machine Learning On AWS</title>
-      <link>http://example.org/blog/machine-learning-on-aws/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/machine-learning-on-aws/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/machine-learning-on-aws/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/machine-learning-on-aws/</guid>
       <description>Introduction to Amazon Sagemaker Studio</description>
     </item>
     <item>
       <title>Introduction to LocalStack</title>
-      <link>http://example.org/blog/introduction-to-localstack/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/introduction-to-localstack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/introduction-to-localstack/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/introduction-to-localstack/</guid>
       <description>Test AWS Cloud  Locally</description>
     </item>
     <item>
       <title>Docker🐬 Dreams💭-3</title>
-      <link>http://example.org/blog/docker-dreams-3/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/docker-dreams-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/docker-dreams-3/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/docker-dreams-3/</guid>
       <description>Docker for Begineer Series</description>
     </item>
     <item>
       <title>Docker🐬 Dreams💭-2</title>
-      <link>http://example.org/blog/docker-dreams-2/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/docker-dreams-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/docker-dreams-2/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/docker-dreams-2/</guid>
       <description>Docker for Begineer Series</description>
     </item>
     <item>
       <title>Docker🐬 Dreams💭-1</title>
-      <link>http://example.org/blog/docker-dreams-1/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/docker-dreams-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/docker-dreams-1/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/docker-dreams-1/</guid>
       <description>Docker for Begineer Series</description>
     </item>
     <item>
       <title>Docker🐬 Dreams💭-0</title>
-      <link>http://example.org/blog/docker-dreams-0/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/docker-dreams-0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/docker-dreams-0/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/docker-dreams-0/</guid>
       <description>Docker for Begineer Series</description>
     </item>
     <item>
       <title>Docker🐬 Dreams💭</title>
-      <link>http://example.org/blog/docker-dreams/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/docker-dreams/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/docker-dreams/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/docker-dreams/</guid>
       <description>Docker for Beginner&amp;#39;s</description>
     </item>
     <item>
       <title>Exploring 🐬the World of Containers</title>
-      <link>http://example.org/blog/exploring-the-world-of-containers/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/exploring-the-world-of-containers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/exploring-the-world-of-containers/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/exploring-the-world-of-containers/</guid>
       <description>Use Container for deployment
 Hi friends, welcome back to Blogs-with-Achu! In today&amp;rsquo;s fast-paced technological landscape, containers have emerged as a powerful software development and deployment solution. If you&amp;rsquo;re interested in learning containerization, you don&amp;rsquo;t need any specific prerequisites.😁
 In Today&amp;rsquo;s Blog:
@@ -116,30 +116,30 @@ A container is a standard unit of software that packages up code and all its dep
     </item>
     <item>
       <title>Must-Watch YouTube Channels That Will Blow Your Mind</title>
-      <link>http://example.org/blog/my-favourite-youtube-channels/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/my-favourite-youtube-channels/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/my-favourite-youtube-channels/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/my-favourite-youtube-channels/</guid>
       <description>My favourite YouTube Channels</description>
     </item>
     <item>
       <title>Learn, Practice, and Succeed-freeCodeCamp</title>
-      <link>http://example.org/blog/learn-practice-and-succeed-freecodecamp/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/learn-practice-and-succeed-freecodecamp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/learn-practice-and-succeed-freecodecamp/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/learn-practice-and-succeed-freecodecamp/</guid>
       <description>Cloud Computing☁️ is one of the leading cutting edge technology in the IT Industry🔥</description>
     </item>
     <item>
       <title>The Art of Coding</title>
-      <link>http://example.org/blog/the-art-of-coding/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/the-art-of-coding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/the-art-of-coding/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/the-art-of-coding/</guid>
       <description>Cloud Computing☁️ is one of the leading cutting edge technology in the IT Industry🔥</description>
     </item>
     <item>
       <title>Magic of ChatGpt</title>
-      <link>http://example.org/blog/magic-of-chatgpt/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/magic-of-chatgpt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/magic-of-chatgpt/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/magic-of-chatgpt/</guid>
       <description>Hi friends, welcome back to Blogs-with-Achu. I believe we are currently experiencing the next revolution ➡️ the AI 🤖Revolution. The excitement surrounding AI has escalated significantly following the release of ChatGpt by OpenAI.
 In Today&amp;rsquo;s Blog:
 What exactly is AI?🤔
@@ -150,23 +150,23 @@ Imagine a world🌍 where machines could think🤔, learn, and even outsmart us,
     </item>
     <item>
       <title>Unveiling the AWS Kingdom👑</title>
-      <link>http://example.org/blog/unveiling-the-aws-kingdom/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/unveiling-the-aws-kingdom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/unveiling-the-aws-kingdom/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/unveiling-the-aws-kingdom/</guid>
       <description>Cloud Computing☁️ is one of the leading cutting edge technology in the IT Industry🔥</description>
     </item>
     <item>
       <title>Taking Your Journey to New Heights✈️</title>
-      <link>http://example.org/blog/taking-your-journey-to-new-heights%EF%B8%8F/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/taking-your-journey-to-new-heights%EF%B8%8F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/taking-your-journey-to-new-heights%EF%B8%8F/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/taking-your-journey-to-new-heights%EF%B8%8F/</guid>
       <description>Cloud Computing☁️ is one of the leading cutting edge technology in the IT Industry🔥</description>
     </item>
     <item>
       <title>The Magic of the Cloud☁️🪄</title>
-      <link>http://example.org/blog/the-magic-of-the-cloud%EF%B8%8F/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/the-magic-of-the-cloud%EF%B8%8F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/the-magic-of-the-cloud%EF%B8%8F/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/the-magic-of-the-cloud%EF%B8%8F/</guid>
       <description>Cloud Computing☁️ is one of the leading cutting edge technology in the IT Industry🔥</description>
     </item>
   </channel>

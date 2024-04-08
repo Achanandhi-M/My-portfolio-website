@@ -2,352 +2,352 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Achanandhi M</title>
-    <link>http://example.org/tags/</link>
+    <link>https://mellow-biscuit-c19821.netlify.app/tags/</link>
     <description>Recent content in Tags on Achanandhi M</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mellow-biscuit-c19821.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
-      <link>http://example.org/tags/ai/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/ai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/ai/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Amazon</title>
-      <link>http://example.org/tags/amazon/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/amazon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/amazon/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/amazon/</guid>
       <description></description>
     </item>
     <item>
       <title>Amazon Sagemaker</title>
-      <link>http://example.org/tags/amazon-sagemaker/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/amazon-sagemaker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/amazon-sagemaker/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/amazon-sagemaker/</guid>
       <description></description>
     </item>
     <item>
       <title>AmazonQ</title>
-      <link>http://example.org/tags/amazonq/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/amazonq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/amazonq/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/amazonq/</guid>
       <description></description>
     </item>
     <item>
       <title>api</title>
-      <link>http://example.org/tags/api/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/api/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/api/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/api/</guid>
       <description></description>
     </item>
     <item>
       <title>Automation</title>
-      <link>http://example.org/tags/automation/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/automation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/automation/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/automation/</guid>
       <description></description>
     </item>
     <item>
       <title>aws</title>
-      <link>http://example.org/tags/aws/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/aws/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/aws/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/aws/</guid>
       <description></description>
     </item>
     <item>
       <title>AWS-reinvent</title>
-      <link>http://example.org/tags/aws-reinvent/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/aws-reinvent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/aws-reinvent/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/aws-reinvent/</guid>
       <description></description>
     </item>
     <item>
       <title>boto3</title>
-      <link>http://example.org/tags/boto3/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/boto3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/boto3/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/boto3/</guid>
       <description></description>
     </item>
     <item>
       <title>channel-recommendations</title>
-      <link>http://example.org/tags/channel-recommendations/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/channel-recommendations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/channel-recommendations/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/channel-recommendations/</guid>
       <description></description>
     </item>
     <item>
       <title>ChatGpt</title>
-      <link>http://example.org/tags/chatgpt/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/chatgpt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/chatgpt/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/chatgpt/</guid>
       <description></description>
     </item>
     <item>
       <title>CI/CD</title>
-      <link>http://example.org/tags/ci/cd/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/ci/cd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/ci/cd/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/ci/cd/</guid>
       <description></description>
     </item>
     <item>
       <title>cloud</title>
-      <link>http://example.org/tags/cloud/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/cloud/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/cloud/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>cloudcomputing</title>
-      <link>http://example.org/tags/cloudcomputing/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/cloudcomputing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/cloudcomputing/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/cloudcomputing/</guid>
       <description></description>
     </item>
     <item>
       <title>cloudnative</title>
-      <link>http://example.org/tags/cloudnative/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/cloudnative/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/cloudnative/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/cloudnative/</guid>
       <description></description>
     </item>
     <item>
       <title>coding</title>
-      <link>http://example.org/tags/coding/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/coding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/coding/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/coding/</guid>
       <description></description>
     </item>
     <item>
       <title>Contanier</title>
-      <link>http://example.org/tags/contanier/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/contanier/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/contanier/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/contanier/</guid>
       <description></description>
     </item>
     <item>
       <title>DevOps</title>
-      <link>http://example.org/tags/devops/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/devops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/devops/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>Digital Ocean</title>
-      <link>http://example.org/tags/digital-ocean/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/digital-ocean/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/digital-ocean/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/digital-ocean/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>http://example.org/tags/docker/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/docker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/docker/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>DockerHub</title>
-      <link>http://example.org/tags/dockerhub/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/dockerhub/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/dockerhub/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/dockerhub/</guid>
       <description></description>
     </item>
     <item>
       <title>ec2</title>
-      <link>http://example.org/tags/ec2/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/ec2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/ec2/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/ec2/</guid>
       <description></description>
     </item>
     <item>
       <title>education</title>
-      <link>http://example.org/tags/education/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/education/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/education/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/education/</guid>
       <description></description>
     </item>
     <item>
       <title>freecodecamp</title>
-      <link>http://example.org/tags/freecodecamp/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/freecodecamp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/freecodecamp/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/freecodecamp/</guid>
       <description></description>
     </item>
     <item>
       <title>freetier</title>
-      <link>http://example.org/tags/freetier/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/freetier/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/freetier/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/freetier/</guid>
       <description></description>
     </item>
     <item>
       <title>GenerativeAI</title>
-      <link>http://example.org/tags/generativeai/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/generativeai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/generativeai/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/generativeai/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>http://example.org/tags/git/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/git/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Github</title>
-      <link>http://example.org/tags/github/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/github/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/github/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Gitlab</title>
-      <link>http://example.org/tags/gitlab/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/gitlab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/gitlab/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/gitlab/</guid>
       <description></description>
     </item>
     <item>
       <title>IT</title>
-      <link>http://example.org/tags/it/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/it/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/it/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/it/</guid>
       <description></description>
     </item>
     <item>
       <title>Javascript</title>
-      <link>http://example.org/tags/javascript/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/javascript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/javascript/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Jenkins</title>
-      <link>http://example.org/tags/jenkins/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/jenkins/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/jenkins/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/jenkins/</guid>
       <description></description>
     </item>
     <item>
       <title>Kubernetes</title>
-      <link>http://example.org/tags/kubernetes/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/kubernetes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/kubernetes/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/kubernetes/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>http://example.org/tags/linux/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/linux/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>LLM</title>
-      <link>http://example.org/tags/llm/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/llm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/llm/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/llm/</guid>
       <description></description>
     </item>
     <item>
       <title>LocalStack</title>
-      <link>http://example.org/tags/localstack/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/localstack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/localstack/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/localstack/</guid>
       <description></description>
     </item>
     <item>
       <title>MachineLearning</title>
-      <link>http://example.org/tags/machinelearning/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/machinelearning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/machinelearning/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/machinelearning/</guid>
       <description></description>
     </item>
     <item>
       <title>Minikube</title>
-      <link>http://example.org/tags/minikube/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/minikube/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/minikube/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/minikube/</guid>
       <description></description>
     </item>
     <item>
       <title>Nginx</title>
-      <link>http://example.org/tags/nginx/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/nginx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/nginx/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/nginx/</guid>
       <description></description>
     </item>
     <item>
       <title>OpenAI</title>
-      <link>http://example.org/tags/openai/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/openai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/openai/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/openai/</guid>
       <description></description>
     </item>
     <item>
       <title>personal</title>
-      <link>http://example.org/tags/personal/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/personal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/personal/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/personal/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>http://example.org/tags/python/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/python/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>RDS</title>
-      <link>http://example.org/tags/rds/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/rds/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/rds/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/rds/</guid>
       <description></description>
     </item>
     <item>
       <title>tech</title>
-      <link>http://example.org/tags/tech/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/tech/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/tech/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/tech/</guid>
       <description></description>
     </item>
     <item>
       <title>VM</title>
-      <link>http://example.org/tags/vm/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/vm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/vm/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/vm/</guid>
       <description></description>
     </item>
     <item>
       <title>VSCodium</title>
-      <link>http://example.org/tags/vscodium/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/vscodium/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/vscodium/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/vscodium/</guid>
       <description></description>
     </item>
     <item>
       <title>WebApplication</title>
-      <link>http://example.org/tags/webapplication/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/webapplication/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/webapplication/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/webapplication/</guid>
       <description></description>
     </item>
     <item>
       <title>webserver</title>
-      <link>http://example.org/tags/webserver/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/webserver/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/webserver/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/webserver/</guid>
       <description></description>
     </item>
     <item>
       <title>Youtube</title>
-      <link>http://example.org/tags/youtube/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/tags/youtube/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/youtube/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/tags/youtube/</guid>
       <description></description>
     </item>
   </channel>

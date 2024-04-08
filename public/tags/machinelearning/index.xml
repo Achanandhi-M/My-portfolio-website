@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>MachineLearning on Achanandhi M</title>
-    <link>http://example.org/tags/machinelearning/</link>
+    <link>https://mellow-biscuit-c19821.netlify.app/tags/machinelearning/</link>
     <description>Recent content in MachineLearning on Achanandhi M</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="http://example.org/tags/machinelearning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mellow-biscuit-c19821.netlify.app/tags/machinelearning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Amazon Q Rocks re:Invent 2023!🚀</title>
-      <link>http://example.org/blog/reinvent/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/reinvent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/reinvent/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/reinvent/</guid>
       <description>Exciting news and an announcement from AWS re:Invent 2023.🔥</description>
     </item>
     <item>
       <title>ChatGPT in your Local Machine</title>
-      <link>http://example.org/blog/chatgpt-in-your-local-machine/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/chatgpt-in-your-local-machine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/chatgpt-in-your-local-machine/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/chatgpt-in-your-local-machine/</guid>
       <description>Just Play with ChatGpt API</description>
     </item>
     <item>
       <title>Machine Learning On AWS</title>
-      <link>http://example.org/blog/machine-learning-on-aws/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/machine-learning-on-aws/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/machine-learning-on-aws/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/machine-learning-on-aws/</guid>
       <description>Introduction to Amazon Sagemaker Studio</description>
     </item>
     <item>
       <title>Magic of ChatGpt</title>
-      <link>http://example.org/blog/magic-of-chatgpt/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/magic-of-chatgpt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/magic-of-chatgpt/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/magic-of-chatgpt/</guid>
       <description>Hi friends, welcome back to Blogs-with-Achu. I believe we are currently experiencing the next revolution ➡️ the AI 🤖Revolution. The excitement surrounding AI has escalated significantly following the release of ChatGpt by OpenAI.
 In Today&amp;rsquo;s Blog:
 What exactly is AI?🤔

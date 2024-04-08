@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>OpenAI on Achanandhi M</title>
-    <link>http://example.org/tags/openai/</link>
+    <link>https://mellow-biscuit-c19821.netlify.app/tags/openai/</link>
     <description>Recent content in OpenAI on Achanandhi M</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="http://example.org/tags/openai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mellow-biscuit-c19821.netlify.app/tags/openai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ChatGPT in your Local Machine</title>
-      <link>http://example.org/blog/chatgpt-in-your-local-machine/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/chatgpt-in-your-local-machine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/chatgpt-in-your-local-machine/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/chatgpt-in-your-local-machine/</guid>
       <description>Just Play with ChatGpt API</description>
     </item>
     <item>
       <title>Magic of ChatGpt</title>
-      <link>http://example.org/blog/magic-of-chatgpt/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/magic-of-chatgpt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/magic-of-chatgpt/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/magic-of-chatgpt/</guid>
       <description>Hi friends, welcome back to Blogs-with-Achu. I believe we are currently experiencing the next revolution ➡️ the AI 🤖Revolution. The excitement surrounding AI has escalated significantly following the release of ChatGpt by OpenAI.
 In Today&amp;rsquo;s Blog:
 What exactly is AI?🤔

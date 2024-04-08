@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>cloud on Achanandhi M</title>
-    <link>http://example.org/tags/cloud/</link>
+    <link>https://mellow-biscuit-c19821.netlify.app/tags/cloud/</link>
     <description>Recent content in cloud on Achanandhi M</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="http://example.org/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mellow-biscuit-c19821.netlify.app/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS for Newbies-01🦋</title>
-      <link>http://example.org/blog/aws-for-newbies-01/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/aws-for-newbies-01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/aws-for-newbies-01/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/aws-for-newbies-01/</guid>
       <description>How I passed the AWS Developer - Associate Certification Exam (DVA-C02)</description>
     </item>
     <item>
       <title>AWS for Newbies🦋</title>
-      <link>http://example.org/blog/aws-for-newbies/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/aws-for-newbies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/aws-for-newbies/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/aws-for-newbies/</guid>
       <description>Getting Started with AWS</description>
     </item>
     <item>
       <title>Unveiling the AWS Kingdom👑</title>
-      <link>http://example.org/blog/unveiling-the-aws-kingdom/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/unveiling-the-aws-kingdom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/unveiling-the-aws-kingdom/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/unveiling-the-aws-kingdom/</guid>
       <description>Cloud Computing☁️ is one of the leading cutting edge technology in the IT Industry🔥</description>
     </item>
     <item>
       <title>Taking Your Journey to New Heights✈️</title>
-      <link>http://example.org/blog/taking-your-journey-to-new-heights%EF%B8%8F/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/taking-your-journey-to-new-heights%EF%B8%8F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/taking-your-journey-to-new-heights%EF%B8%8F/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/taking-your-journey-to-new-heights%EF%B8%8F/</guid>
       <description>Cloud Computing☁️ is one of the leading cutting edge technology in the IT Industry🔥</description>
     </item>
     <item>
       <title>The Magic of the Cloud☁️🪄</title>
-      <link>http://example.org/blog/the-magic-of-the-cloud%EF%B8%8F/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/the-magic-of-the-cloud%EF%B8%8F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/the-magic-of-the-cloud%EF%B8%8F/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/the-magic-of-the-cloud%EF%B8%8F/</guid>
       <description>Cloud Computing☁️ is one of the leading cutting edge technology in the IT Industry🔥</description>
     </item>
   </channel>

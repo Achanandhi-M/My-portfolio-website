@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AmazonQ on Achanandhi M</title>
-    <link>http://example.org/tags/amazonq/</link>
+    <link>https://mellow-biscuit-c19821.netlify.app/tags/amazonq/</link>
     <description>Recent content in AmazonQ on Achanandhi M</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="http://example.org/tags/amazonq/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mellow-biscuit-c19821.netlify.app/tags/amazonq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Amazon Q Rocks re:Invent 2023!🚀</title>
-      <link>http://example.org/blog/reinvent/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/reinvent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/reinvent/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/reinvent/</guid>
       <description>Exciting news and an announcement from AWS re:Invent 2023.🔥</description>
     </item>
   </channel>

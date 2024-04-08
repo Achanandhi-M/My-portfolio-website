@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>LocalStack on Achanandhi M</title>
-    <link>http://example.org/tags/localstack/</link>
+    <link>https://mellow-biscuit-c19821.netlify.app/tags/localstack/</link>
     <description>Recent content in LocalStack on Achanandhi M</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="http://example.org/tags/localstack/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mellow-biscuit-c19821.netlify.app/tags/localstack/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting Started With LocalStack</title>
-      <link>http://example.org/blog/getting-started-with-localstack/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/getting-started-with-localstack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/getting-started-with-localstack/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/getting-started-with-localstack/</guid>
       <description>LocalStack is a tool that runs on your local machine that emulates AWS API.</description>
     </item>
     <item>
       <title>Introduction to LocalStack</title>
-      <link>http://example.org/blog/introduction-to-localstack/</link>
+      <link>https://mellow-biscuit-c19821.netlify.app/blog/introduction-to-localstack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/introduction-to-localstack/</guid>
+      <guid>https://mellow-biscuit-c19821.netlify.app/blog/introduction-to-localstack/</guid>
       <description>Test AWS Cloud  Locally</description>
     </item>
   </channel>

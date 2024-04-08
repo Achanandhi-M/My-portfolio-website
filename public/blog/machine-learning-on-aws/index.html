@@ -9,13 +9,13 @@
 <meta name="keywords" content="tech, Amazon, AWS, GenerativeAI, MachineLearning, Amazon Sagemaker">
 <meta name="description" content="Introduction to Amazon Sagemaker Studio">
 <meta name="author" content="Achanandhi M">
-<link rel="canonical" href="http://example.org/blog/machine-learning-on-aws/">
+<link rel="canonical" href="https://mellow-biscuit-c19821.netlify.app/blog/machine-learning-on-aws/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://example.org/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://example.org/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://example.org/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://example.org/apple-touch-icon.png">
-<link rel="mask-icon" href="http://example.org/safari-pinned-tab.svg">
+<link rel="icon" href="https://mellow-biscuit-c19821.netlify.app/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://mellow-biscuit-c19821.netlify.app/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://mellow-biscuit-c19821.netlify.app/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://mellow-biscuit-c19821.netlify.app/apple-touch-icon.png">
+<link rel="mask-icon" href="https://mellow-biscuit-c19821.netlify.app/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <noscript>
@@ -57,13 +57,13 @@
 </noscript><meta property="og:title" content="Machine Learning On AWS" />
 <meta property="og:description" content="Introduction to Amazon Sagemaker Studio" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://example.org/blog/machine-learning-on-aws/" />
-<meta property="og:image" content="http://example.org/blogs/localstack-03.jpeg" /><meta property="article:section" content="blog" />
+<meta property="og:url" content="https://mellow-biscuit-c19821.netlify.app/blog/machine-learning-on-aws/" />
+<meta property="og:image" content="https://mellow-biscuit-c19821.netlify.app/blogs/localstack-03.jpeg" /><meta property="article:section" content="blog" />
 
 
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://example.org/blogs/localstack-03.jpeg" />
+<meta name="twitter:image" content="https://mellow-biscuit-c19821.netlify.app/blogs/localstack-03.jpeg" />
 <meta name="twitter:title" content="Machine Learning On AWS"/>
 <meta name="twitter:description" content="Introduction to Amazon Sagemaker Studio"/>
 
@@ -77,13 +77,13 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Blogs",
-      "item": "http://example.org/blog/"
+      "item": "https://mellow-biscuit-c19821.netlify.app/blog/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Machine Learning On AWS",
-      "item": "http://example.org/blog/machine-learning-on-aws/"
+      "item": "https://mellow-biscuit-c19821.netlify.app/blog/machine-learning-on-aws/"
     }
   ]
 }
@@ -101,7 +101,7 @@
   "articleBody": "Hi friends🙋‍♂️ welcome back to Blogs-with-Achu, we have already started the Docker🐬 Learning series and the Introduction to LocalStack. This Blog is different from all of my previous blogs. In this blog, we are going to see how we can build and test our Machine learning model in AWS Cloud without using credit cards. I was super excited when I saw this first time, and also I am interested to share with you guys.\nToday’s Agenda:\nWhy do we need Cloud for ML Based workloads🤔**?**\nMachine Learning on AWS\nWhat is special about Amazon Sagemaker Studio Lab🤔**?**\nHow to get started with Sagemaker Studio Lab🤔**?**\nSummary.\n1. Why do we need Cloud for ML Based workloads🤔**?**\nBefore answering this, I want the reader to think or ask this question to themselves. why do I (you) need Cloud for my(your) ML projects? ok, I Know you got the correct answer, Let me explain my Thought on why I need Cloud for my ML-based projects.\nI don’t need to worry about hardware(CPU/GPU/TPU).\nI don’t need to worry about scalability\nI don’t need to worry about performance.\nI don’t need to worry about security\nPlease mention your thought on why you need cloud for your ML-based projects, please mention them in the comments section, Spread the word so that others can also become aware of this information.\n2. Machine Learning on AWS\nAs we all know AWS holds a dominant position in the realm of cloud computing. They are providing 200+ services, it is a huge number, right? They are 15+ services in Machine learning. One of my favorites is Amazon Sagemaker.\nAlmost AWS provides everything you want to work with Machine learning, the thing is that you want to choose the right service for your workloads.\n3. What is special about Amazon Sagemaker Studio Lab 🤔?\nFirst of all, I want to mention here is Amazon SageMaker Studio Lab and Amazon SageMaker are related but distinct offerings within the Amazon Web Services (AWS) ecosystem. Amazon Sagemaker is meant for working with real-world projects and for deployment purposes. But whereas Amazon Sagemaker Studio Lab is useful for testing and for educational purposes, the best thing about the Amazon Sagemaker Studio Lab is free to use.\nThere are many prebuilt models you can use for your project. The most fascinating thing about Amazon Sagemaker Studio Lab is:\nYou can use the CPU for up to 4 hours at a time with a limit of 8 hours in a 24-hour period. (FREE)\nYou can use GPU for up to 4 hours at a time with a limit of 4 hours in a 24-hour period. (FREE)\n4. How to get started with Sagemaker Studio Lab 🤔?\nHave you Compromised? Really I was Compromised when I saw it the first time, and I thought I really want to test it out. And I applied for using Sagemaker Studio Lab, It will ask a few questions, you have to wait at least for 5 business days to process your account when your account is ready they will send an email to activate your account. Boom, you step into the cloud to work with ML-based tasks. Remember it is only for testing purposes, we can’t able to deploy huge models into Sagemaker Studio Lab. One thing I noticed after I used Sagemaker StudioLab, it is like an exact clone of the Jupyter Notebook.\nThe difference is we used Jupyter Notebook on our local computer, but now with Sagemaker studio, we are using Jupyter Notebook in Cloud. I think we discussed enough theory, why are you waiting? Let’s Move to Cloud(Use Someone’s else Computer)\nLink for creating a Sagemaker Studio Lab click on me\nThe below image shows the Sagemaker Studio Home page, Explore the page and Click the request free account button.\nEnter the necessary details on the Request account page to activate your account\n5. Summary\nEven If you are not too specific to the ML field, don’t miss the opportunity, to create an account play with ML and almost importantly learning ML is the most valuable skill. That is all for today’s guy, In our next blog We will see one of the important, as well as fascinating, and trending technology nowadays none other Generative AI, I will show my first project on Generative AI and which was developed and tested in Sagemaker Studio lab. See you in Next Blog. If you find it useful please share it with your friends and let others also make use of it. Happy learning and happy reading! 📖\nRegards\nAchanandhi M👦\nML Enthusiast\n",
   "wordCount" : "763",
   "inLanguage": "en",
-  "image":"http://example.org/blogs/localstack-03.jpeg","datePublished": "0001-01-01T00:00:00Z",
+  "image":"https://mellow-biscuit-c19821.netlify.app/blogs/localstack-03.jpeg","datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
   "author":[{
     "@type": "Person",
@@ -109,14 +109,14 @@
   }],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://example.org/blog/machine-learning-on-aws/"
+    "@id": "https://mellow-biscuit-c19821.netlify.app/blog/machine-learning-on-aws/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Achanandhi M",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://example.org/favicon.ico"
+      "url": "https://mellow-biscuit-c19821.netlify.app/favicon.ico"
     }
   }
 }
@@ -138,7 +138,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://example.org/" accesskey="h" title="Achanandhi M (Alt + H)">Achanandhi M</a>
+            <a href="https://mellow-biscuit-c19821.netlify.app/" accesskey="h" title="Achanandhi M (Alt + H)">Achanandhi M</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -164,27 +164,27 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://example.org/" title="Home">
+                <a href="https://mellow-biscuit-c19821.netlify.app/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="http://example.org/blog" title="Blog">
+                <a href="https://mellow-biscuit-c19821.netlify.app/blog" title="Blog">
                     <span>Blog</span>
                 </a>
             </li>
             <li>
-                <a href="http://example.org/projects" title="Projects">
+                <a href="https://mellow-biscuit-c19821.netlify.app/projects" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="http://example.org/experience" title="Experience">
+                <a href="https://mellow-biscuit-c19821.netlify.app/experience" title="Experience">
                     <span>Experience</span>
                 </a>
             </li>
             <li>
-                <a href="http://example.org/search" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="https://mellow-biscuit-c19821.netlify.app/search" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
@@ -195,7 +195,7 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://example.org/">Home</a>&nbsp;»&nbsp;<a href="http://example.org/blog/">Blogs</a></div>
+    <div class="breadcrumbs"><a href="https://mellow-biscuit-c19821.netlify.app/">Home</a>&nbsp;»&nbsp;<a href="https://mellow-biscuit-c19821.netlify.app/blog/">Blogs</a></div>
     <h1 class="post-title entry-hint-parent">
       Machine Learning On AWS
     </h1>
@@ -206,7 +206,7 @@
 
 </div>
   </header> 
-<figure class="entry-cover"><img loading="eager" src="http://example.org/blogs/localstack-03.jpeg" alt="">
+<figure class="entry-cover"><img loading="eager" src="https://mellow-biscuit-c19821.netlify.app/blogs/localstack-03.jpeg" alt="">
         
 </figure>
 
@@ -281,20 +281,20 @@ You can use GPU for up to 4 hours at a time with a limit of 4 hours in a 24-hour
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://example.org/tags/tech/">tech</a></li>
-      <li><a href="http://example.org/tags/amazon/">Amazon</a></li>
-      <li><a href="http://example.org/tags/aws/">aws</a></li>
-      <li><a href="http://example.org/tags/generativeai/">GenerativeAI</a></li>
-      <li><a href="http://example.org/tags/machinelearning/">MachineLearning</a></li>
-      <li><a href="http://example.org/tags/amazon-sagemaker/">Amazon Sagemaker</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/tech/">tech</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/amazon/">Amazon</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/aws/">aws</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/generativeai/">GenerativeAI</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/machinelearning/">MachineLearning</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/amazon-sagemaker/">Amazon Sagemaker</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="http://example.org/blog/getting-started-with-localstack/">
+  <a class="prev" href="https://mellow-biscuit-c19821.netlify.app/blog/getting-started-with-localstack/">
     <span class="title">« Prev</span>
     <br>
     <span>Getting Started With LocalStack</span>
   </a>
-  <a class="next" href="http://example.org/blog/introduction-to-localstack/">
+  <a class="next" href="https://mellow-biscuit-c19821.netlify.app/blog/introduction-to-localstack/">
     <span class="title">Next »</span>
     <br>
     <span>Introduction to LocalStack</span>
@@ -306,7 +306,7 @@ You can use GPU for up to 4 hours at a time with a limit of 4 hours in a 24-hour
     </main>
     
 <footer class="footer">
-    <span> Made ❤️ with <a href="http://example.org/">Achanandhi M</a></span>
+    <span> Made ❤️ with <a href="https://mellow-biscuit-c19821.netlify.app/">Achanandhi M</a></span>
     <span>
     </span>
 </footer>

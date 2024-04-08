@@ -9,13 +9,13 @@
 <meta name="keywords" content="Javascript, Devops, WebApplication, Jenkins, AWS, Docker, Git, Github">
 <meta name="description" content="Automating the Web Application Deployment">
 <meta name="author" content="Achanandhi M">
-<link rel="canonical" href="http://example.org/projects/cd-pipeline-for-web-application-with-elastic-beanstalk/">
+<link rel="canonical" href="https://mellow-biscuit-c19821.netlify.app/projects/cd-pipeline-for-web-application-with-elastic-beanstalk/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://example.org/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://example.org/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://example.org/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://example.org/apple-touch-icon.png">
-<link rel="mask-icon" href="http://example.org/safari-pinned-tab.svg">
+<link rel="icon" href="https://mellow-biscuit-c19821.netlify.app/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://mellow-biscuit-c19821.netlify.app/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://mellow-biscuit-c19821.netlify.app/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://mellow-biscuit-c19821.netlify.app/apple-touch-icon.png">
+<link rel="mask-icon" href="https://mellow-biscuit-c19821.netlify.app/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <noscript>
@@ -57,13 +57,13 @@
 </noscript><meta property="og:title" content="" />
 <meta property="og:description" content="Automating the Web Application Deployment" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://example.org/projects/cd-pipeline-for-web-application-with-elastic-beanstalk/" />
-<meta property="og:image" content="http://example.org/blogs/aws-project.png" /><meta property="article:section" content="projects" />
+<meta property="og:url" content="https://mellow-biscuit-c19821.netlify.app/projects/cd-pipeline-for-web-application-with-elastic-beanstalk/" />
+<meta property="og:image" content="https://mellow-biscuit-c19821.netlify.app/blogs/aws-project.png" /><meta property="article:section" content="projects" />
 
 
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://example.org/blogs/aws-project.png" />
+<meta name="twitter:image" content="https://mellow-biscuit-c19821.netlify.app/blogs/aws-project.png" />
 <meta name="twitter:title" content=""/>
 <meta name="twitter:description" content="Automating the Web Application Deployment"/>
 
@@ -77,13 +77,13 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Projects",
-      "item": "http://example.org/projects/"
+      "item": "https://mellow-biscuit-c19821.netlify.app/projects/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "",
-      "item": "http://example.org/projects/cd-pipeline-for-web-application-with-elastic-beanstalk/"
+      "item": "https://mellow-biscuit-c19821.netlify.app/projects/cd-pipeline-for-web-application-with-elastic-beanstalk/"
     }
   ]
 }
@@ -101,7 +101,7 @@
   "articleBody": "This repository contains the source code and configuration for a simple web application and a Continuous Integration / Continuous Deployment (CI/CD) pipeline using AWS services, including AWS CodePipeline, AWS CodeBuild, and AWS Elastic Beanstalk.\n🔗 GitHub Table of Contents Overview Requirements Getting Started Prerequisites Setup Pipeline Stages Automated Testing Deployment Contributing License Output Overview The primary goal of this project is to set up a CI/CD pipeline that automates the build, test, and deployment of a simple web application to AWS Elastic Beanstalk whenever changes are pushed to the repository. Below are the key components of the project:\nWeb Application: A simple web application that is hosted on AWS Elastic Beanstalk.\nCI/CD Pipeline: The CI/CD pipeline is defined using AWS CodePipeline and includes the following stages:\nSource: Pulls the code from the repository. Build: Builds the application using AWS CodeBuild. Deploy: Deploy the application to Elastic Beanstalk using CodePipeline to Elastic Beanstalk integration. Requirements To set up and use this CI/CD pipeline, you need the following requirements:\nAn AWS account with the necessary permissions. An AWS Elastic Beanstalk environment for hosting the web application. A GitHub repository to host the source code. An AWS CodeBuild project for building the application. Getting Started Prerequisites Before you start, ensure you have the following prerequisites:\nAWS account credentials configured on your local machine. AWS CLI and AWS Elastic Beanstalk CLI (EB CLI) installed. GitHub repository with your web application code. Setup Create a GitHub Repository: Create a new repository for your web application on GitHub.\nConfigure AWS Services:\nSet up an AWS Elastic Beanstalk environment to host your application. Create an AWS CodeBuild project for building your application. Create AWS CodePipeline:\nSet up an AWS CodePipeline that defines the source, build, and deploy stages. Configure Automatic Trigger:\nConfigure the pipeline to be triggered automatically whenever there is a change to the code in your GitHub repository. Deploy the Pipeline:\nDeploy the configured pipeline in AWS. Pipeline Stages The CI/CD pipeline is composed of the following stages:\nSource Stage:\nThis stage pulls the code from your GitHub repository whenever changes are pushed. Build Stage:\nThis stage builds the application using AWS CodeBuild, ensuring that your application is ready for deployment. Deploy Stage:\nThis stage deploys the application to the Elastic Beanstalk environment using CodePipeline’s integration. Automated Testing You can add automated tests to your application and configure the pipeline to run these tests before deploying the application.\nDeployment Your web application will be automatically built, tested (if configured), and deployed to AWS Elastic Beanstalk whenever changes are pushed to your GitHub repository.\nContributing We welcome contributions to this project. Please feel free to submit issues, feature requests, or pull requests.\nLicense This project is licensed under the MIT License.\nOutput(For Reference) Configure the Environment for Elastic Beanstalk Choose the platform and platform Branch based on your requirements, This project is based on Nodejs Set up the Networking and Database Configure Pipeline for CI/CD Choose the pipeline Settings Most importantly add source providers like(Github , BitBucket, Codecommit etc) Create a Build stage in the Codebuild Service console Add Build Stage Add deploy Stage Finally Review the Changes and click Create Logs Complete Flowchart ElaticBeanStalk Console Click the Domain link to access the web application Final output of the Web Application Happy coding and automating your deployments with AWS! 😊\n",
   "wordCount" : "554",
   "inLanguage": "en",
-  "image":"http://example.org/blogs/aws-project.png","datePublished": "0001-01-01T00:00:00Z",
+  "image":"https://mellow-biscuit-c19821.netlify.app/blogs/aws-project.png","datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
   "author":[{
     "@type": "Person",
@@ -109,14 +109,14 @@
   }],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://example.org/projects/cd-pipeline-for-web-application-with-elastic-beanstalk/"
+    "@id": "https://mellow-biscuit-c19821.netlify.app/projects/cd-pipeline-for-web-application-with-elastic-beanstalk/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Achanandhi M",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://example.org/favicon.ico"
+      "url": "https://mellow-biscuit-c19821.netlify.app/favicon.ico"
     }
   }
 }
@@ -138,7 +138,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://example.org/" accesskey="h" title="Achanandhi M (Alt + H)">Achanandhi M</a>
+            <a href="https://mellow-biscuit-c19821.netlify.app/" accesskey="h" title="Achanandhi M (Alt + H)">Achanandhi M</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -164,27 +164,27 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://example.org/" title="Home">
+                <a href="https://mellow-biscuit-c19821.netlify.app/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="http://example.org/blog" title="Blog">
+                <a href="https://mellow-biscuit-c19821.netlify.app/blog" title="Blog">
                     <span>Blog</span>
                 </a>
             </li>
             <li>
-                <a href="http://example.org/projects" title="Projects">
+                <a href="https://mellow-biscuit-c19821.netlify.app/projects" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="http://example.org/experience" title="Experience">
+                <a href="https://mellow-biscuit-c19821.netlify.app/experience" title="Experience">
                     <span>Experience</span>
                 </a>
             </li>
             <li>
-                <a href="http://example.org/search" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="https://mellow-biscuit-c19821.netlify.app/search" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
@@ -195,7 +195,7 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://example.org/">Home</a>&nbsp;»&nbsp;<a href="http://example.org/projects/">Projects</a></div>
+    <div class="breadcrumbs"><a href="https://mellow-biscuit-c19821.netlify.app/">Home</a>&nbsp;»&nbsp;<a href="https://mellow-biscuit-c19821.netlify.app/projects/">Projects</a></div>
     <h1 class="post-title entry-hint-parent">
       
     </h1>
@@ -206,7 +206,7 @@
 
 </div>
   </header> 
-<figure class="entry-cover"><img loading="eager" src="http://example.org/blogs/aws-project.png" alt="">
+<figure class="entry-cover"><img loading="eager" src="https://mellow-biscuit-c19821.netlify.app/blogs/aws-project.png" alt="">
         
 </figure>
   <div class="post-content"><p>This repository contains the source code and configuration for a simple web application and a Continuous Integration / Continuous Deployment (CI/CD) pipeline using AWS services, including AWS CodePipeline, AWS CodeBuild, and AWS Elastic Beanstalk.</p>
@@ -369,14 +369,14 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://example.org/tags/javascript/">Javascript</a></li>
-      <li><a href="http://example.org/tags/devops/">DevOps</a></li>
-      <li><a href="http://example.org/tags/webapplication/">WebApplication</a></li>
-      <li><a href="http://example.org/tags/jenkins/">Jenkins</a></li>
-      <li><a href="http://example.org/tags/aws/">aws</a></li>
-      <li><a href="http://example.org/tags/docker/">Docker</a></li>
-      <li><a href="http://example.org/tags/git/">Git</a></li>
-      <li><a href="http://example.org/tags/github/">Github</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/javascript/">Javascript</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/devops/">DevOps</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/webapplication/">WebApplication</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/jenkins/">Jenkins</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/aws/">aws</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/docker/">Docker</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/git/">Git</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/github/">Github</a></li>
     </ul>
 
   </footer>
@@ -384,7 +384,7 @@
     </main>
     
 <footer class="footer">
-    <span> Made ❤️ with <a href="http://example.org/">Achanandhi M</a></span>
+    <span> Made ❤️ with <a href="https://mellow-biscuit-c19821.netlify.app/">Achanandhi M</a></span>
     <span>
     </span>
 </footer>

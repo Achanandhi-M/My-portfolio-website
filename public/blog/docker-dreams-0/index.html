@@ -9,13 +9,13 @@
 <meta name="keywords" content="Contanier, Devops, Docker, DockerHub, tech">
 <meta name="description" content="Docker for Begineer Series">
 <meta name="author" content="Achanandhi M">
-<link rel="canonical" href="http://example.org/blog/docker-dreams-0/">
+<link rel="canonical" href="https://mellow-biscuit-c19821.netlify.app/blog/docker-dreams-0/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://example.org/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://example.org/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://example.org/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://example.org/apple-touch-icon.png">
-<link rel="mask-icon" href="http://example.org/safari-pinned-tab.svg">
+<link rel="icon" href="https://mellow-biscuit-c19821.netlify.app/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://mellow-biscuit-c19821.netlify.app/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://mellow-biscuit-c19821.netlify.app/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://mellow-biscuit-c19821.netlify.app/apple-touch-icon.png">
+<link rel="mask-icon" href="https://mellow-biscuit-c19821.netlify.app/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <noscript>
@@ -57,13 +57,13 @@
 </noscript><meta property="og:title" content="Docker🐬 Dreams💭-0" />
 <meta property="og:description" content="Docker for Begineer Series" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://example.org/blog/docker-dreams-0/" />
-<meta property="og:image" content="http://example.org/blogs/dockerpng.png" /><meta property="article:section" content="blog" />
+<meta property="og:url" content="https://mellow-biscuit-c19821.netlify.app/blog/docker-dreams-0/" />
+<meta property="og:image" content="https://mellow-biscuit-c19821.netlify.app/blogs/dockerpng.png" /><meta property="article:section" content="blog" />
 
 
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://example.org/blogs/dockerpng.png" />
+<meta name="twitter:image" content="https://mellow-biscuit-c19821.netlify.app/blogs/dockerpng.png" />
 <meta name="twitter:title" content="Docker🐬 Dreams💭-0"/>
 <meta name="twitter:description" content="Docker for Begineer Series"/>
 
@@ -77,13 +77,13 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Blogs",
-      "item": "http://example.org/blog/"
+      "item": "https://mellow-biscuit-c19821.netlify.app/blog/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Docker🐬 Dreams💭-0",
-      "item": "http://example.org/blog/docker-dreams-0/"
+      "item": "https://mellow-biscuit-c19821.netlify.app/blog/docker-dreams-0/"
     }
   ]
 }
@@ -101,7 +101,7 @@
   "articleBody": "Hi friends, welcome back to Blogs-with-Achu, we have started the Docker🐬 Learning series, In my previous Blog⏮️ we saw Introduction to Docker and containers, Today in this blog we are Going to see Docker installation and working with some basic Docker commands.\nToday blog’s is all about :\nDocker Installation🏠\nDocker Desktop💻\nAlternative method-Sandbox☁️\nCheck Docker is Installed🫡\nBasic Docker Commands💥\nWhat’s Next⏭️\nQuiz🧾\nConclusion.🏁\nDocker Installation🏠..\nFor working with docker, we need to first install docker in our local system💻. The installation process will defer based on the operating system.\nStep 1: Use this Link docker.io for installation\nStep 2: After that, u will land in the Docker world\nStep 3: Install Docker based on your operating system, if you’re using Linux install based on your Linux distributions\nI think the Installation process is easy, I hope you have done that. If are facing any issues please mention them in the comment section.\n**Docker Desktop💻\n**Docker Desktop is a tool designed to simplify the development and deployment of containerized applications. It provides an easy-to-use graphical interface for managing Docker containers and images on your local machine, regardless of the operating system you’re using.\n**Alternative method-Sandbox**☁️\nThere is another alternative method, you can run docker without installing it in your local system, yes you heard that right. Yeah, you can run docker in the cloud (that’s like in a sandbox environment). They are many websites are providing a sandbox environment for absolutely free, you can use it.\nUse this link for Docker’s official sandbox Environment\nThere are many websites providing sandbox environments you can also try the codesandbox.io website\n**Problem with Sandbox Environment**😵‍💫\nThere are Several problems are there while working with a sandbox environment\nResource Limitations: Docker imposes resource limits on containers to ensure fair sharing of resources with the host system and other containers. However, these limits can sometimes restrict the sandbox environment’s capabilities, such as memory, CPU, or network access.\nContainer Lifecycle and Persistence: By default, Docker containers are ephemeral, meaning any changes made inside the container are lost when it’s stopped or restarted. This can be problematic when working with a sandbox environment that requires persistence.\nDebugging and Troubleshooting: Debugging issues within a Docker sandbox environment can be more challenging due to the isolation.\nThe sandbox environment is best suitable for testing purposes, it is not suitable for individuals who want to play hard with the docker\nCheck Docker is Installed🫡\nIf you installed docker locally on your system, you are already one foot ahead of learning docker, there are several way use can verify whether you installed docker in your local machine. Use this command to verify :\ndocker --version I am running docker inside Ubuntu, and it shows the current version of docker installed on your local machine.\nBasic Docker Commands💥\nThere are some basic docker commands you can use frequently when working with docker\n1. docker images command will display all images in our local system\ndocker images The lists of docker images in my local system.\n2. docker container ps -a command will display all container both excited and running.\ndocker container ps -a 3. docker container ps command will display the container which are running\ndocker ps In the above image, there is no container running in my local system, so it shows nothing.\nWhat’s Next⏭️\nIn the next blog, we deep dive into the docker images concept, how to pull images from the docker hub, and how to work with images and containers with examples.\nQuiz🧾\nConclusion🏁\nIf you have any doubts, please mention them in the comment section. Let’s keep up the enthusiasm and explore the real power of Docker in our upcoming blog. See you in the next blog. Happy learning and happy reading! 📖\nRegards\nAchanandhi M👦\n",
   "wordCount" : "630",
   "inLanguage": "en",
-  "image":"http://example.org/blogs/dockerpng.png","datePublished": "0001-01-01T00:00:00Z",
+  "image":"https://mellow-biscuit-c19821.netlify.app/blogs/dockerpng.png","datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
   "author":[{
     "@type": "Person",
@@ -109,14 +109,14 @@
   }],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://example.org/blog/docker-dreams-0/"
+    "@id": "https://mellow-biscuit-c19821.netlify.app/blog/docker-dreams-0/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Achanandhi M",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://example.org/favicon.ico"
+      "url": "https://mellow-biscuit-c19821.netlify.app/favicon.ico"
     }
   }
 }
@@ -138,7 +138,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://example.org/" accesskey="h" title="Achanandhi M (Alt + H)">Achanandhi M</a>
+            <a href="https://mellow-biscuit-c19821.netlify.app/" accesskey="h" title="Achanandhi M (Alt + H)">Achanandhi M</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -164,27 +164,27 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://example.org/" title="Home">
+                <a href="https://mellow-biscuit-c19821.netlify.app/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="http://example.org/blog" title="Blog">
+                <a href="https://mellow-biscuit-c19821.netlify.app/blog" title="Blog">
                     <span>Blog</span>
                 </a>
             </li>
             <li>
-                <a href="http://example.org/projects" title="Projects">
+                <a href="https://mellow-biscuit-c19821.netlify.app/projects" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="http://example.org/experience" title="Experience">
+                <a href="https://mellow-biscuit-c19821.netlify.app/experience" title="Experience">
                     <span>Experience</span>
                 </a>
             </li>
             <li>
-                <a href="http://example.org/search" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="https://mellow-biscuit-c19821.netlify.app/search" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
@@ -195,7 +195,7 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://example.org/">Home</a>&nbsp;»&nbsp;<a href="http://example.org/blog/">Blogs</a></div>
+    <div class="breadcrumbs"><a href="https://mellow-biscuit-c19821.netlify.app/">Home</a>&nbsp;»&nbsp;<a href="https://mellow-biscuit-c19821.netlify.app/blog/">Blogs</a></div>
     <h1 class="post-title entry-hint-parent">
       Docker🐬 Dreams💭-0
     </h1>
@@ -206,7 +206,7 @@
 
 </div>
   </header> 
-<figure class="entry-cover"><img loading="eager" src="http://example.org/blogs/dockerpng.png" alt="">
+<figure class="entry-cover"><img loading="eager" src="https://mellow-biscuit-c19821.netlify.app/blogs/dockerpng.png" alt="">
         
 </figure>
 
@@ -305,19 +305,19 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://example.org/tags/contanier/">Contanier</a></li>
-      <li><a href="http://example.org/tags/devops/">DevOps</a></li>
-      <li><a href="http://example.org/tags/docker/">Docker</a></li>
-      <li><a href="http://example.org/tags/dockerhub/">DockerHub</a></li>
-      <li><a href="http://example.org/tags/tech/">tech</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/contanier/">Contanier</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/devops/">DevOps</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/docker/">Docker</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/dockerhub/">DockerHub</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/tech/">tech</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="http://example.org/blog/docker-dreams-1/">
+  <a class="prev" href="https://mellow-biscuit-c19821.netlify.app/blog/docker-dreams-1/">
     <span class="title">« Prev</span>
     <br>
     <span>Docker🐬 Dreams💭-1</span>
   </a>
-  <a class="next" href="http://example.org/blog/docker-dreams/">
+  <a class="next" href="https://mellow-biscuit-c19821.netlify.app/blog/docker-dreams/">
     <span class="title">Next »</span>
     <br>
     <span>Docker🐬 Dreams💭</span>
@@ -329,7 +329,7 @@
     </main>
     
 <footer class="footer">
-    <span> Made ❤️ with <a href="http://example.org/">Achanandhi M</a></span>
+    <span> Made ❤️ with <a href="https://mellow-biscuit-c19821.netlify.app/">Achanandhi M</a></span>
     <span>
     </span>
 </footer>

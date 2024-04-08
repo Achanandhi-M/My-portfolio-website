@@ -9,13 +9,13 @@
 <meta name="keywords" content="tech, AWS, cloudnative, LocalStack, Devops">
 <meta name="description" content="LocalStack is a tool that runs on your local machine that emulates AWS API.">
 <meta name="author" content="Achanandhi M">
-<link rel="canonical" href="http://example.org/blog/getting-started-with-localstack/">
+<link rel="canonical" href="https://mellow-biscuit-c19821.netlify.app/blog/getting-started-with-localstack/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://example.org/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://example.org/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://example.org/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://example.org/apple-touch-icon.png">
-<link rel="mask-icon" href="http://example.org/safari-pinned-tab.svg">
+<link rel="icon" href="https://mellow-biscuit-c19821.netlify.app/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://mellow-biscuit-c19821.netlify.app/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://mellow-biscuit-c19821.netlify.app/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://mellow-biscuit-c19821.netlify.app/apple-touch-icon.png">
+<link rel="mask-icon" href="https://mellow-biscuit-c19821.netlify.app/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <noscript>
@@ -57,13 +57,13 @@
 </noscript><meta property="og:title" content="Getting Started With LocalStack" />
 <meta property="og:description" content="LocalStack is a tool that runs on your local machine that emulates AWS API." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://example.org/blog/getting-started-with-localstack/" />
-<meta property="og:image" content="http://example.org/blogs/localstack-05.jpeg" /><meta property="article:section" content="blog" />
+<meta property="og:url" content="https://mellow-biscuit-c19821.netlify.app/blog/getting-started-with-localstack/" />
+<meta property="og:image" content="https://mellow-biscuit-c19821.netlify.app/blogs/localstack-05.jpeg" /><meta property="article:section" content="blog" />
 
 
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://example.org/blogs/localstack-05.jpeg" />
+<meta name="twitter:image" content="https://mellow-biscuit-c19821.netlify.app/blogs/localstack-05.jpeg" />
 <meta name="twitter:title" content="Getting Started With LocalStack"/>
 <meta name="twitter:description" content="LocalStack is a tool that runs on your local machine that emulates AWS API."/>
 
@@ -77,13 +77,13 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Blogs",
-      "item": "http://example.org/blog/"
+      "item": "https://mellow-biscuit-c19821.netlify.app/blog/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Getting Started With LocalStack",
-      "item": "http://example.org/blog/getting-started-with-localstack/"
+      "item": "https://mellow-biscuit-c19821.netlify.app/blog/getting-started-with-localstack/"
     }
   ]
 }
@@ -101,7 +101,7 @@
   "articleBody": "Hi friends🙋‍♂️ welcome back to Blogs-with-Achu, we have already seen the Introduction to LocalStack in our previous blog. LocalStack is a tool that runs on your local machine that emulates AWS API. Now in this today’s blog, we are going to explore and learn about LocalStack. The below image shows the working of LocalStack.\nImage credit: KodeKloud\nToday’s Agenda:\nHow to install LocalStack on your local machine🤔?\nAWS Services on LocalStack\nHow to integrate LocalStack?\nSummary\n1. How to install LocalStack on your local machine🤔?\nThe first thing I want to mention here is that there is no management console, likewise, we see in AWS Management Console, In LocalStack everything we will be working with the command line.\nMy best choice for learning or for the installation of any service, I will prefer documentation. Documentation is the best part of getting started.\nThe below image shows the LocalStack Installation Docs\nUse documentation for installation purposes. There are multiple ways you can install LocalStack, it depends on your use case. you can install a LocalStack based on your platforms, apart from there are different ways you can install LocalStack, you can install by using LocalStack CLI, docker,docker-compose, and also using helm. Choose the one that best suit for your use case. Remember LocalStack runs on a docker container. I installed LocalStack using docker.\n2. AWS Services on LocalStack\nLocalStack provides emulation services for different AWS APIs. Almost every service is available in LocalStack, you can use Services like S3, Lambda, IAM, ECR, EC2, EKS, etc. But the issue is here is you can’t use EKS for Community Edition, and for that, you need to pro user. Don’t there are other Services you can use for testing purposes? Here is the list of services LocalStack offers.\n3. How to integrate LocalStack?\nNow it’s time for making our hands dirty, get ready with your command line. verify LocalStack is installed on your machine\nlocalstack --version localstack start LocalStack start will start the LocalStack docker container. If you got similar output like this, you are on the correct path, if not you need to evaluate and try to fix the issue. If are unable to fix it please post in the comment section. It is better to use to sudo in front of the LocalStack command.\nIntegrations\nNext, open the new tab in the terminal, don’t use the same tab where you ran the initial start command. Next, steps are the most important step in working with LocalStack, you need to integrate LocalStack to use cloud resources. Switch to the Integrations page:\nThere are multiple ways you can integrate based on your needs, we are now focusing mainly on the AWS Command line interface, it is a very important integration, it will only send the incoming endpoint to LocalStack instead of sending it to AWS. Don’t forget to integrate, otherwise, you will not get the desired output.\nClick the AWS Command line interface in the left-side menu\nIn the overview section, there are two CLI alternatives, they both will give the same result.\n(i) AWS CLI Setup\nIf you want to use AWS CLI you can follow this one, and also forget to read the Note. Use the “test” as a value for aws_access_key and for aws_secret_key. Don’t forget to change or include the endpoint URL, the endpoint URL is used to divert the request to the LocalStack endpoint instead of sending it to AWS.\n(ii) LocalStack AWS CLI\nLocalStack AWS CLI is created by Localstack, for interacting with locally created services through API. I prefer to use to LocalStack AWS CLI it best way to get started. You can what best suits you, both are the same\n4. Summary\nIn this blog, we installed LocalStack locally on our machine and we configured the endpoint URL to divert the request to LocalStack ie (integrations). Don’t forget to integrate it is a very important process. We have already seen enough theory, In our upcoming LocalStack blog we see, how actually we work with AWS services locally using LocalStack. In the next blog, we see how to work with S3 locally. See you in Next Blog. If you find it useful please share it with your friends and let others also make use of it. Happy learning and happy reading! 📖\nRegards\nAchanandhi M👦\n",
   "wordCount" : "718",
   "inLanguage": "en",
-  "image":"http://example.org/blogs/localstack-05.jpeg","datePublished": "0001-01-01T00:00:00Z",
+  "image":"https://mellow-biscuit-c19821.netlify.app/blogs/localstack-05.jpeg","datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
   "author":[{
     "@type": "Person",
@@ -109,14 +109,14 @@
   }],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://example.org/blog/getting-started-with-localstack/"
+    "@id": "https://mellow-biscuit-c19821.netlify.app/blog/getting-started-with-localstack/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Achanandhi M",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://example.org/favicon.ico"
+      "url": "https://mellow-biscuit-c19821.netlify.app/favicon.ico"
     }
   }
 }
@@ -138,7 +138,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://example.org/" accesskey="h" title="Achanandhi M (Alt + H)">Achanandhi M</a>
+            <a href="https://mellow-biscuit-c19821.netlify.app/" accesskey="h" title="Achanandhi M (Alt + H)">Achanandhi M</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -164,27 +164,27 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://example.org/" title="Home">
+                <a href="https://mellow-biscuit-c19821.netlify.app/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="http://example.org/blog" title="Blog">
+                <a href="https://mellow-biscuit-c19821.netlify.app/blog" title="Blog">
                     <span>Blog</span>
                 </a>
             </li>
             <li>
-                <a href="http://example.org/projects" title="Projects">
+                <a href="https://mellow-biscuit-c19821.netlify.app/projects" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="http://example.org/experience" title="Experience">
+                <a href="https://mellow-biscuit-c19821.netlify.app/experience" title="Experience">
                     <span>Experience</span>
                 </a>
             </li>
             <li>
-                <a href="http://example.org/search" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="https://mellow-biscuit-c19821.netlify.app/search" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
@@ -195,7 +195,7 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://example.org/">Home</a>&nbsp;»&nbsp;<a href="http://example.org/blog/">Blogs</a></div>
+    <div class="breadcrumbs"><a href="https://mellow-biscuit-c19821.netlify.app/">Home</a>&nbsp;»&nbsp;<a href="https://mellow-biscuit-c19821.netlify.app/blog/">Blogs</a></div>
     <h1 class="post-title entry-hint-parent">
       Getting Started With LocalStack
     </h1>
@@ -206,7 +206,7 @@
 
 </div>
   </header> 
-<figure class="entry-cover"><img loading="eager" src="http://example.org/blogs/localstack-05.jpeg" alt="">
+<figure class="entry-cover"><img loading="eager" src="https://mellow-biscuit-c19821.netlify.app/blogs/localstack-05.jpeg" alt="">
         
 </figure>
 
@@ -274,19 +274,19 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://example.org/tags/tech/">tech</a></li>
-      <li><a href="http://example.org/tags/aws/">aws</a></li>
-      <li><a href="http://example.org/tags/cloudnative/">cloudnative</a></li>
-      <li><a href="http://example.org/tags/localstack/">LocalStack</a></li>
-      <li><a href="http://example.org/tags/devops/">DevOps</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/tech/">tech</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/aws/">aws</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/cloudnative/">cloudnative</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/localstack/">LocalStack</a></li>
+      <li><a href="https://mellow-biscuit-c19821.netlify.app/tags/devops/">DevOps</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="http://example.org/blog/chatgpt-in-your-local-machine/">
+  <a class="prev" href="https://mellow-biscuit-c19821.netlify.app/blog/chatgpt-in-your-local-machine/">
     <span class="title">« Prev</span>
     <br>
     <span>ChatGPT in your Local Machine</span>
   </a>
-  <a class="next" href="http://example.org/blog/machine-learning-on-aws/">
+  <a class="next" href="https://mellow-biscuit-c19821.netlify.app/blog/machine-learning-on-aws/">
     <span class="title">Next »</span>
     <br>
     <span>Machine Learning On AWS</span>
@@ -298,7 +298,7 @@
     </main>
     
 <footer class="footer">
-    <span> Made ❤️ with <a href="http://example.org/">Achanandhi M</a></span>
+    <span> Made ❤️ with <a href="https://mellow-biscuit-c19821.netlify.app/">Achanandhi M</a></span>
     <span>
     </span>
 </footer>
