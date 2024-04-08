@@ -31,7 +31,13 @@ weight = 40
 identifier = "search"
 name = "Search"
 url = "/search"
-weight = 50
+weight = 60
+
+[[menu.main]]
+identifier = "tags"
+name="Tags"
+url="/tags"
+weight=50
 
 [params]
 showToc = true
