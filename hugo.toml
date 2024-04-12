@@ -80,6 +80,10 @@ hideDescriptionInList = false
   url = "https://github.com/Achanandhi-M"
 
   [[params.socialIcons]]
+  name = "medium"
+  url = "https://medium.com/@achanandhi.m"
+
+  [[params.socialIcons]]
   name="X"
   url="https://twitter.com/AchanandhiM"
 
