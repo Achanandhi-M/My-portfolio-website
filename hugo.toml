@@ -53,7 +53,7 @@ hideDescriptionInList = false
   [params.profileMode]
   enabled = true
   title = "Achanandhi M"
-  subtitle = "As a Web Application Intern at [**Itransz.in**](https://itransz.in/), I've been focusing more on building web applications. My enthusiasm lies in working with Kubernetes ,Docker, and other projects managed by CNCF. I love the philosophy of FOSS, and I am a proud Linux (fedora) user. I am a Self-taught programmer, AWS fascinates me a lot. It all started with the cloud. That curiosity made me like computer science , especially technology. I used to share my thoughts on tech quite often. **_My life's greatest success lies in making technology and IT accessible to rural students and helping them become a part of the IT world_**"
+  subtitle = "As a Intern at [**Itransz.in**](https://itransz.in/), I've been working on Developing a SaaS product on top of K8s. My enthusiasm lies in working with Kubernetes ,Docker, and other projects managed by CNCF. I love the philosophy of FOSS, and I am a proud Linux (fedora) user. I am a Self-taught programmer, AWS fascinates me a lot. It all started with the cloud. That curiosity made me like computer science , especially technology. I used to share my thoughts on tech quite often. **_My life's greatest success lies in making technology and IT accessible to rural students and helping them become a part of the IT world_**"
  
   imageUrl = "home/home.jpeg"
   imageWidth = 220
